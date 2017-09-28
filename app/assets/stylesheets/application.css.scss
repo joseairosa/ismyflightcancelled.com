@@ -10,15 +10,17 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
  *= require_self
  */
 
-.myNavbar {
-   background-color: #ccc;
-   color:#222;
-   border: 1px solid #333;
-}
-
-.myNavbar li a { color: #FFF; } 
-.myNavbar li a:hover, focus, active { color: #FFF; background-color: none; }
+@import "bootstrap";
+@import "font-awesome";
+@import "variables";
+@import "mixins";
+@import "global";
+@import "navbar";
+@import "masthead";
+@import "services";
+@import "portfolio";
+@import "cta";
+@import "bootstrap-overrides";

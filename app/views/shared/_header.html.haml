@@ -1,0 +1,38 @@
+= render 'layouts/navigation'
+%header.masthead
+  .header-content
+    .header-content-inner
+      %h1#homeHeading Flight details
+      %hr
+      .container
+        %form
+          .form-group.row
+            .col-12
+              %input#inlineFormInputGroup.form-control.form-control-lg{:placeholder => "Flight Number", :type => "text"}
+          .form-group.row
+            .col-sm-6
+              %input#inputPassword3.form-control.form-control-lg{:placeholder => "Password", :type => "password"}
+          .form-group.row
+            %label.col-sm-2 Checkbox
+            .col-sm-10
+              .form-check
+                %label.form-check-label
+                  %input.form-check-input{:type => "checkbox"}/
+                  Check me out
+          .form-group.row
+            .offset-sm-2.col-sm-10
+              %button.btn.btn-primary.btn-xl.js-scroll-trigger{:type => "submit"} Submit
+      %form
+        .form-group.row
+          %label.sr-only{:for => "inlineFormInput"} Name
+          %input#inlineFormInput.form-control.form-control-lg.mb-2.mr-sm-2.mb-sm-0{:placeholder => "Jane Doe", :type => "text"}
+          %label.sr-only{:for => "inlineFormInputGroup"} Username
+          .input-group.mb-2.mr-sm-2.mb-sm-0
+            .input-group-addon @
+            %input#inlineFormInputGroup.form-control.form-control-lg{:placeholder => "Username", :type => "text"}
+        .form-group.row
+          .offset-sm-2.col-sm-10
+            %button.btn.btn-primary.btn-xl.js-scroll-trigger{:type => "submit"} Submit
+            -# %button.btn.btn-primary{:type => "submit"} Sign in
+
+      %p Provide us with your flight details and we'll double check if your flight has been cancelled!

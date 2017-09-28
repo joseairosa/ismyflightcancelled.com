@@ -12,7 +12,11 @@
 //
 //= require jquery
 //= require rails-ujs
+//= require cable
 //= require popper
 //= require turbolinks
 //= require bootstrap-sprockets
-//= require_tree .
+//= require jquery.easing.min
+//= require scrollreveal.min
+//= require jquery.magnific-popup.min
+//= require creative

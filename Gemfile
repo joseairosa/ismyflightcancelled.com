@@ -29,6 +29,7 @@ gem 'haml-rails'
 gem 'high_voltage'
 gem 'jquery-rails'
 gem 'popper_js'
+gem 'font-awesome-rails'
 group :development do
   gem 'better_errors'
   gem 'html2haml'
