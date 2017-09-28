@@ -30,6 +30,7 @@ gem 'high_voltage'
 gem 'jquery-rails'
 gem 'popper_js'
 gem 'font-awesome-rails'
+gem 'bootstrap-datepicker-rails'
 group :development do
   gem 'better_errors'
   gem 'html2haml'

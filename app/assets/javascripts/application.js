@@ -16,6 +16,7 @@
 //= require popper
 //= require turbolinks
 //= require bootstrap-sprockets
+//= require bootstrap-datepicker
 //= require jquery.easing.min
 //= require scrollreveal.min
 //= require jquery.magnific-popup.min

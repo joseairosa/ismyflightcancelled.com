@@ -14,6 +14,7 @@
  */
 
 @import "bootstrap";
+@import "bootstrap-datepicker";
 @import "font-awesome";
 @import "variables";
 @import "mixins";
@@ -24,3 +25,12 @@
 @import "portfolio";
 @import "cta";
 @import "bootstrap-overrides";
+
+.header-content {
+  input[type="text"] {
+    text-align: center;
+  }
+  button {
+    cursor: pointer;
+  }
+}
