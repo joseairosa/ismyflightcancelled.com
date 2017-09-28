@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+.myNavbar {
+   background-color: #ccc;
+   color:#222;
+   border: 1px solid #333;
+}
+
+.myNavbar li a { color: #FFF; } 
+.myNavbar li a:hover, focus, active { color: #FFF; background-color: none; }
