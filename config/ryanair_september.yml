@@ -1,0 +1,580 @@
+---
+flights:
+  21/09/2017:
+    - 792 - Stansted to Venice Treviso
+    - 936 - Stansted to Perpignan
+    - 9142 - Stansted to Faro
+    - 5172 - Stansted to Billund
+    - 1886 - Stansted to Lisbon
+    - 8403 - Stansted to Brno
+    - 72 - Stansted to Carcassone
+    - 6543 - Stansted to Marseille
+    - 514 - Stansted to Dinard
+    - 1845 - Stansted to Lorient
+    - 8402 - Stansted to Bergerac
+    - 4566 - Brussels Charleroi to Figari
+    - 6316 - Brussels Charleroi to Marseille
+    - 9135 - Porto to Paris Beauvais
+    - 6532 - Porto to Marseille
+    - 7188 - Rome C to Bordeaux
+    - 6031 - East Midlands to Palma
+    - 1632 - East Midlands Limoges
+    - 6266 - Edinburgh to Barcelona
+    - 6654 - Edinburgh to Bordeaux
+    - 9056 - Alicante to Bremen
+    - 5446 - Madrid to Marseille
+    - 3021 - Madrid to Toulouse
+    - 6341 - Barcelona to Rome F
+    - 1135 - Barcelona to Berlin
+    - 504 - Dublin to Bristol
+    - 1986 - Dublin to Nantes
+    - 1958 - Dublin to Nice
+    - 2136 - Stansted to Rzeszow
+    - 2336 - Stansted to Poznan
+    - 9273 - Stansted to Eindhoven
+    - 2860 - Stansted to Luxembourg
+    - 8544 - Stansted to Berlin
+    - 1874 - Stansted to Nice
+    - 281 - Stansted to Toulouse
+    - 1782 - Stansted to Bordeaux
+    - 1516 - Figari to Paris Beauvais
+    - 7782 - Marseille to Malaga
+    - 6772 - Marseille to Nantes
+    - 9635 - Rome C to Paris Beauvais
+    - 4383 - Edinburgh to Frankfurt Hahn
+    - 793 - Venice Treviso to Stansted
+    - 937 - Perpignan to Stansted
+    - 9143 - Faro to Stansted
+    - 5173 - Billund to Stansted
+    - 1887 - Lisbon to Stansted
+    - 8404 - Brno to Stansted
+    - 73 - Carcassone to Stansted
+    - 6544 - Marseille to Stansted
+    - 515 - Dinard to Stansted
+    - 1844 - Lorient to Stansted
+    - 8401 - Bergerac to Stansted
+    - 4567 - Figari to Brussels Charleroi
+    - 6315 - Marseille to Brussels Charleroi
+    - 9134 - Paris Beauvais to Porto
+    - 6531 - Marseille to Porto
+    - 7189 - Bordeaux to Rome C
+    - 6032 - Palma to East Midlands
+    - 1633 - Limoges to East Midlands
+    - 6267 - Barcelona to Edinburgh
+    - 6655 - Bordeaux to Edinburgh
+    - 9057 - Bremen to Alicante
+    - 5447 - Marseille to Madrid
+    - 3022 - Toulouse to Madrid
+    - 6342 - Rome F to Barcelona
+    - 1134 - Berlin to Barcelona
+    - 505 - Bristol to Dublin
+    - 1987 - Nantes to Dublin
+    - 1959 - Nice to Dublin
+    - 2137 - Rzeszow to Stansted
+    - 2337 - Poznan to Stansted
+    - 9274 - Eindhoven to Stansted
+    - 2861 - Luxembourg to Stansted
+    - 8545 - Berlin to Stansted
+    - 1875 - Nice to Stansted
+    - 282 - Toulouse to Stansted
+    - 1783 - Bordeaux to Stansted
+    - 1515 - Paris Beauvais to Figari
+    - 7783 - Malaga to Marseille
+    - 6773 - Nantes to Marseille
+    - 9636 - Paris Beauvais to Rome C
+    - 4382 - Frankfurt Hahn to Edinburgh
+    - 1983 - Biarritz to Dublin
+  22/09/2017:
+    - 876 - Stansted to Beziers
+    - 8396 - Stansted to Jerez
+    - 2642 - Stansted to Riga
+    - 9961 - Stansted to Sofia
+    - 9811 - Barcelona to Stansted
+    - 1135 - Barcelona to Berlin
+    - 154 - Madrid to Hamburg
+    - 1062 - Madrid to Warsaw Modlin
+    - 4703 - Porto to Milan Bergamo
+    - 6532 - Porto to Marseille
+    - 9995 - Pisa to Berlin
+    - 2684 - Edinburgh to Stansted
+    - 201 - Brussels Charleroi to Copenhagen
+    - 8048 - Brussels Charleroi to Nimes
+    - 5092 - Milan Bergamo to Lamezia
+    - 5392 - Milan Bergamo to Lamezia
+    - 7382 - Stansted to Copenhagen
+    - 9282 - Stansted to Faro
+    - 6305 - Barcelona to Milan Bergamo
+    - 6505 - Marseille to Eindhoven
+    - 8888 - Edinburgh to Stansted
+    - 4071 - Brussels Charleroi to La Rochelle
+    - 6055 - Brussels Charleroi to Venice Treviso
+    - 6115 - Milan Begamo to Naples
+    - 5217 - Milan Begamo to Bremen
+    - 877 - Beziers to Stansted
+    - 8397 - Jerez to Stansted
+    - 2643 - Riga to Stansted
+    - 9962 - Sofia to Stansted
+    - 9810 - Stansted to Barcelona
+    - 1134 - Berlin to Barcelona
+    - 155 - Hamburg to Madrid
+    - 1063 - Warsaw Modlin to Madrid
+    - 4702 - Milan Bergamo to Porto
+    - 6531 - Marseille to Porto
+    - 9996 - Berlin to Pisa
+    - 2685 - Stansted to Edinburgh
+    - 200 - Copenhagen to Brussels Charleroi
+    - 8049 - Nimes to Brussels Charleroi
+    - 5093 - Lamezia Milan to Bergamo
+    - 5393 - Lamezia Milan to Bergamo
+    - 7381 - Copenhagen to Stansted
+    - 9283 - Faro to Stansted
+    - 6304 - Milan Bergamo to Barcelona
+    - 6506 - Eindhoven to Marseille
+    - 8887 - Stansted to Edinburgh
+    - 4072 - La Rochelle to Brussels Charleroi
+    - 6066 - Venice Treviso to Brussels Charleroi
+    - 6114 - Naples to Milan Begamo
+    - 5216 - Bremen to Milan Begamo
+  23/09/2017:
+    - 4976 - Stansted to Brindisi
+    - 8555 - Stansted to Castellon
+    - 9142 - Stansted to Faro
+    - 72 - Stansted to Carcassone
+    - 7963 - Stansted to Brive
+    - 8371 - Stansted to Budapest
+    - 1251 - Stansted to Aalborg
+    - 9524 - Stansted to Lublin
+    - 4231 - Milan Bergamo to Paris Beauvais
+    - 5831 - Milan Bergamo to Bordeaux
+    - 1791 - Lisbon to Luxembourg
+    - 6374 - Barcelona to Paris Beauvais
+    - 1135 - Barcelona to Berlin
+    - 3956 - Rome Ciampino to Bucharest
+    - 7188 - Rome Ciampino to Bordeaux
+    - 1984 - Dublin to Carcassone
+    - 1958 - Dublin to Nice
+    - 4188 - Glasgow to Carcassone
+    - 8445 - Stansed to Budapest
+    - 8495 - Milan Bergamo to Brindisi
+    - 8892 - Milan Bergamo to Palermo
+    - 1798 - Lisbon to Toulouse
+    - 9111 - Barcelona to Turin
+    - 9662 - Rome Ciampino to Krakow
+    - 1986 - Dublin to Nantes
+    - 4977 - Brindisi to Stansted
+    - 8554 - Castellon to Stansted
+    - 9143 - Faro to Stansted
+    - 73 - Carcassone to Stansted
+    - 7964 - Brive to Stansted
+    - 8369 - Budapest to Stansted
+    - 1252 - Aalborg to Stansted
+    - 9525 - Lublin to Stansted
+    - 4232 - Paris Beauvais to Milan Bergamo
+    - 5832 - Bordeaux to Milan Bergamo
+    - 1792 - Luxembourg to Lisbon
+    - 6375 - Paris Beauvais to Barcelona
+    - 1134 - Berlin to Barcelona
+    - 3957 - Bucharest to Rome Ciampino
+    - 7189 - Bordeaux to Rome Ciampino
+    - 1985 - Carcassone to Dublin
+    - 1959 - Nice to Dublin
+    - 4189 - Carcassone to Glasgow
+    - 8446 - Budapest to Stansed
+    - 8496 - Brindisi to Milan Bergamo
+    - 8893 - Palermo to Milan Bergamo
+    - 1799 - Toulouse to Lisbon
+    - 9112 - Turin to Barcelona
+    - 9663 - Krakow to Rome Ciampino
+    - 1987 - Nantes to Dublin
+  24/09/2017:
+    - 2225 - Stansted to Talinn
+    - 8403 - Stansted to Brno
+    - 7117 - Stansted to Strasbourg
+    - 1886 - Stansted to Lisbon
+    - 4952 - Stansted to Perugia
+    - 4703 - Porto to Milan Bergamo
+    - 3011 - Madrid to Toulouse
+    - 5997 - Madrid to Stansted
+    - 2676 - Bologna to Copenhagen
+    - 3990 - Bologna to Bucharest
+    - 721 - Berlin to Verona
+    - 198 - Berlin to Bratislava
+    - 7352 - Edinburgh to Brussels Charleroi
+    - 2105 - Brussels Charleroi to Toulouse
+    - 4526 - Brussels Charleroi to Milan Bergamo
+    - 9135 - Porto to Paris Beauvais
+    - 8348 - Porto to Stansted
+    - 8544 - Stansted to Berlin
+    - 3632 - Stansted to Bremen
+    - 5047 - Madrid to Verona
+    - 1195 - Bologna to Stansted
+    - 164 - Berlin to Brussels
+    - 140 - Berlin to Rome Ciampino
+    - 8416 - Brussels Charleroi to Budapest
+    - 7466 - Porto to St. Etienne
+    - 2224 - Tallinn to Stansted
+    - 8404 - Brno to Stansted
+    - 7118 - Strasbourg to Stansted
+    - 1887 - Lisbon to Stansted
+    - 4953 - Perugia to Stansted
+    - 4702 - Milan Bergamo to Porto
+    - 3012 - Toulouse to Madrid
+    - 5998 - Stansted to Madrid
+    - 2677 - Copenhagen to Bologna
+    - 3991 - Bucharest to Bologna
+    - 722 - Verona to Berlin
+    - 199 - Bratislava to Berlin
+    - 7353 - Brussels Charleroi to Edinburgh
+    - 2106 - Toulouse to Brussels Charleroi
+    - 4527 - Milan Bergamo to Brussels Charleroi
+    - 9134 - Paris Beauvais to Porto
+    - 8347 - Stansted to Porto
+    - 8545 - Berlin to Stansted
+    - 3631 - Bremen to Stansted
+    - 5048 - Verona to Madrid
+    - 1194 - Stansted to Bologna
+    - 165 - Brussels to Berlin
+    - 141 - Rome Ciampino to Berlin
+    - 8415 - Budapest to Brussels Charleroi
+    - 7467 - St. Etienne to Porto
+  25/09/2017-02/10/2017-09/10/2017-16/10/2017-23/10/2017:
+    - 6341 - Barcelona to Rome F
+    - 9045 - Barcelona to Stansted
+    - 4545 - Barcelona to Porto
+    - 8495 - Milan B to Brindisi
+    - 5392 - Milan B to Lamezia
+    - 4113 - Milan Bergamo to Naples
+    - 4197 - Milan B to Stansted
+    - 4522 - Brussels C to Milan Bergamo
+    - 1055 - Brussels C to Warsaw M
+    - 3239 - Brussels C to Manchester
+    - 201 - Brussels C to Copenhagen
+    - 672 - Dublin to Birmingham
+    - 26 - Dublin to Paris Beauvais
+    - 9428 - Dublin to Milan B
+    - 7000 - Rome Fiumicino to Brussels
+    - 4891 - Rome F to Catania
+    - 7060 - Rome F to Barcelona
+    - 1885 - Lisbon to Stansted
+    - 2096 - Lisbon to Porto
+    - 5993 - Madrid to Stansted
+    - 8344 - Porto to Stansted
+    - 8542 - Stansted to Berlin
+    - 2498 - Stansted to Bratislava
+    - 2283 - Stansted to Warsaw M
+    - 2672 - Stansted to Rome Ciampino
+    - 6342 - Rome F to Barcelona
+    - 9044 - Stansted to Barcelona
+    - 4546 - Porto to Barcelona
+    - 8496 - Brindisi to Milan B
+    - 5393 - Lamezia to Milan B
+    - 4114 - Naples to Milan B
+    - 4198 - Stansted to Milan B
+    - 4S23 - Milan B to Brussels C
+    - 1056 - Warsaw M to Brussels C
+    - 3238 - Manchester to Brussels C
+    - 200 - Copenhagen to Brussels C
+    - 673 - Birmingham to Dublin
+    - 29 - Paris B to Dublin
+    - 9429 - Milan B to Dublin
+    - 7010 - Brussels to Rome F
+    - 4892 - Catania to Rome F
+    - 7070 - Barcelona to Rome F
+    - 1880 - Stansted to Lisbon
+    - 2095 - Porto to Lisbon
+    - 5994 - Stansted to Madrid
+    - 8343 - Stansted to Porto
+    - 8S43 - Berlin to Stansted
+    - 2499 - Bratislava to Stansted
+    - 2284 - Warsaw M to Stansted
+    - 2673 - Rome C to Stansted
+  26/09/2017-03/10/2017-10/10/2017-17/10/2017-24/10/2017:
+    - 6341 - Barcelona to Rome F
+    - 9045 - Barcelona to Stansted
+    - 8495 - Milan B to Brindisi
+    - 4113 - Milan B to Naples
+    - 4197 - Milan B to Stansted
+    - 201 - Brussels C to Copenhagen
+    - 6316 - Brussels C to Marseille
+    - 26 - Dublin to Paris B
+    - 9428 - Dublin to Milan B
+    - 211 - Dublin to Stansted
+    - 7000 - Rome F to Brussels
+    - 4891 - Rome F to Catania
+    - 7060 - Rome F to Barcelona
+    - 1885 - Lisbon to Stansted
+    - 5993 - Madrid to Stansted
+    - 5317 - Madrid to Santiago
+    - 8344 - Porto to Stansted
+    - 7474 - Porto to Paris B
+    - 2672 - Stansted to Rome C
+    - 972 - Stansted to Genoa
+    - 1374 - Stansted to Prague
+    - 6342 - Rome F to Barcelona
+    - 9040 - Stansted to Barcelona
+    - 8496 - Brindisi to Milan B
+    - 4114 - Naples to Milan B
+    - 4198 - Stansted to Milan B
+    - 200 - Copenhagen to Brussels C
+    - 6315 - Marseille to Brussels C
+    - 29 - Paris B to Dublin
+    - 9029 - Milan B to Dublin
+    - 212 - Stansted to Dublin
+    - 7010 - Brussels to Rome F
+    - 4892 - Catania to Rome F
+    - 7070 - Barcelona to Rome F
+    - 1880 - Stansted to Lisbon
+    - 1880 - Stansted to Madrid
+    - 5318 - Santiago de Compostela to Madrid
+    - 8343 - Stansted to Porto
+    - 7475 - Paris B to Porto
+    - 2673 - Rome C to Stansted
+    - 973 - Genoa to Stansted
+    - 1375 - Prague to Stansted
+  27/09/2017-04/10/2017-11/10/2017-18/10/2017-25/10/2017:
+    - 9005 - Barcelona to Stansted
+    - 8495 - Milan B to Brindisi
+    - 5192 - Milan B to Lamezia
+    - 2105 - Brussels C to Toulouse
+    - 9428 - Dublin to Milan B
+    - 506 - Dublin to Bristol
+    - 7000 - Rome F to Brussels
+    - 4891 - Rome F to Catania
+    - 7060 - Rome F to Barcelona
+    - 1885 - Lisbon to Stansted
+    - 2932 - Lisbon to Brussels
+    - 5993 - Madrid to Stansted
+    - 2528 - Madrid to Berlin
+    - 8344 - Porto to Stansted
+    - 4586 - Porto to Barcelona
+    - 8502 - Stansted to Berlin
+    - 2283 - Stansted to Warsaw M
+    - 2672 - Stansted to Rome C
+    - 3717 - Stansted to Budapest
+    - 9040 - Stansted to Barcelona
+    - 8496 - Brindisi to Milan B
+    - 5193 - Lamezia to Milan B
+    - 2106 - Toulouse to Brussels C
+    - 9029 - Milan B to Dublin
+    - 507 - Bristol to Dublin
+    - 7010 - Brussels to Rome F
+    - 4892 - Catania to Rome F
+    - 7070 - Barcelona to Rome F
+    - 1880 - Stansted to Lisbon
+    - 2931 - Brussels to Lisbon
+    - 5990 - Stansted to Madrid
+    - 2S29 - Berlin to Madrid
+    - 8343 - Stansted to Porto
+    - 4587 - Barcelona to Porto
+    - 8543 - Berlin to Stansted
+    - 2284 - Warsaw M to Stansted
+    - 2673 - Rome C to Stansted
+    - 3718 - Budapest to Stansted
+  28/09/2017-05/10/2017-12/10/2017-19/10/2017-26/10/2017:
+    - 6341 - Barcelona to Rome F
+    - 9045 - Barcelona to Stansted
+    - 9162 - Barcelona to Birmingham
+    - 8495 - Milan B to Brindisi
+    - 2990 - Milan B to Copenhagen
+    - 4199 - Milan B to Stansted
+    - 1055 - Brussels C to Warsaw M
+    - 6055 - Brussels C to Venice
+    - 26 - Dublin to Paris B
+    - 46 - Dublin to Brussels C
+    - 3978 - Dublin to Madrid
+    - 7000 - Rome F to Brussels Zaventem
+    - 4891 - Rome F to Catania
+    - 7060 - Rome F to Barcelona
+    - 1885 - Lisbon to Stansted
+    - 2096 - Lisbon to Porto
+    - 5993 - Madrid to Stansted
+    - 5317 - Madrid to Santiago
+    - 9135 - Porto to Paris B
+    - 8348 - Porto to Stansted
+    - 8542 - Stansted to Berlin
+    - 2672 - Stansted to Rome C
+    - 9967 - Stansted to Sofia
+    - 5062 - Stansted to Poznan
+    - 6342 - Rome F to Barcelona
+    - 9044 - Stansted to Barcelona
+    - 9163 - Birmingham to Barcelona
+    - 8496 - Brindisi to Milan B
+    - 2989 - Copenhagen to Milan B
+    - 4194 - Stansted to Milan B
+    - 1056 - Warsaw M to Brussels C
+    - 6056 - Venice to Brussels C
+    - 29 - Paris B to Dublin
+    - 47 - Brussels C to Dublin
+    - 3979 - Madrid to Dublin
+    - 7010 - Brussels Z to Rome F
+    - 4892 - Catania to Rome F
+    - 7070 - Barcelona to Rome F
+    - 1884 - Stansted to Lisbon
+    - 2095 - Porto to Lisbon
+    - 5994 - Stansted to Madrid
+    - 5318 - Santiago to Madrid
+    - 9134 - Paris B to Porto
+    - 8347 - Stansted to Porto
+    - 8543 - Berlin to Stansted
+    - 2673 - Rome C to Stansted
+    - 9968 - Sofia to Stansted
+    - 5063 - Poznan to Stansted
+  29/09/2017-06/10/2017-13/10/2017-20/10/2017-27/10/2017:
+    - 6341 - Barcelona to Rome F
+    - 9045 - Barcelona to Stansted
+    - 3976 - Barcelona to Dublin
+    - 8495 - Milan B to Brindisi
+    - 4197 - Milan B to Stansted
+    - 5551 - Milan B to Cologne
+    - 1055 - Brussels C to Warsaw M
+    - 3239 - Brussels C to Manchester
+    - 201 - Brussels C to Copenhagen
+    - 22 - Dublin to Paris B
+    - 664 - Dublin to Birmingham
+    - 7156 - Dublin to Madrid
+    - 4891 - Rome F to Catania
+    - 7060 - Rome F to Barcelona
+    - 1885 - Lisbon to Stansted
+    - 2932 - Lisbon to Brussels
+    - 1671 - Lisbon to Porto
+    - 5993 - Madrid to Stansted
+    - 5983 - Madrid to Milan B
+    - 4584 - Porto to Barcelona
+    - 7478 - Porto to Paris B
+    - 8348 - Porto to Stansted
+    - 8542 - Stansted to Berlin
+    - 2283 - Stansted to Warsaw M
+    - 2672 - Stansted to Rome C
+    - 1396 - Stansted to Oslo
+    - 2352 - Stansted to Cologne
+    - 6342 - Rome F to Barcelona
+    - 9044 - Stansted to Barcelona
+    - 3977 - Dublin to Barcelona
+    - 8496 - Brindisi to Milan B
+    - 4198 - Stansted to Milan B
+    - 5550 - Cologne to Milan B
+    - 1056 - Warsaw M to Brussels C
+    - 3238 - Manchester to Brussels C
+    - 200 - Copenhagen to Brussels C
+    - 23 - Paris B to Dublin
+    - 665 - Birmingham to Dublin
+    - 7157 - Madrid to Dublin
+    - 4892 - Catania to Rome F
+    - 7070 - Barcelona to Rome F
+    - 1884 - Stansted to Lisbon
+    - 2931 - Brussels to Lisbon
+    - 1672 - Porto to Lisbon
+    - 5994 - Stansted to Madrid
+    - 5984 - Milan B to Madrid
+    - 4585 - Barcelona to Porto
+    - 7479 - Paris B to Porto
+    - 8347 - Stansted to Porto
+    - 8543 - Berlin to Stansted
+    - 2284 - Warsaw M to Stansted
+    - 2673 - Rome C to Stansted
+    - 1397 - Oslo to Stansted
+    - 2353 - Cologne to Stansted
+  30/09/2017-07/10/2017-14/10/2017-21/10/2017-28/10/2017:
+    - 6341 - Barcelona to Rome F
+    - 9045 - Barcelona to Stansted
+    - 4545 - Barcelona to Porto
+    - 5292 - Milan B to Lamezia
+    - 4111 - Milan B to Naples
+    - 5505 - Milan B to Nuremberg
+    - 8795 - Milan B to Brindisi
+    - 201 - Brussels C to Copenhagen
+    - 6105 - Brussels C to Rome C
+    - 4526 - Brussels C to Milan B
+    - 7156 - Dublin to Madrid
+    - 552 - Dublin to Manchester
+    - 7000 - Rome F to Brussels
+    - 9795 - Rome F to Marseille
+    - 7075 - Rome F to Bari
+    - 1885 - Lisbon to Stansted
+    - 2096 - Lisbon to Porto
+    - 5993 - Madrid to Stansted
+    - 7474 - Porto to Paris B
+    - 4703 - Porto to Milan B
+    - 2672 - Stansted to Rome C
+    - 9967 - Stansted to Sofia
+    - 281 - Stansted to Toulouse
+    - 2134 - Stansted to Rzeszow
+    - 6342 - Rome F to Barcelona
+    - 9044 - Stansted to Barcelona
+    - 4546 - Porto to Barcelona
+    - 5293 - Lamezia to Milan B
+    - 4112 - Naples to Milan B
+    - 5506 - Nuremberg to Milan B
+    - 8796 - Brindisi to Milan B
+    - 200 - Copenhagen to Brussels C
+    - 6106 - Rome C to Brussels C
+    - 4527 - Milan B to Brussels C
+    - 7157 - Madrid to Dublin
+    - 553 - Manchester to Dublin
+    - 7010 - Brussels to Rome F
+    - 9796 - Marseille to Rome F
+    - 7076 - Bari to Rome F
+    - 1884 - Stansted to Lisbon
+    - 2095 - Porto to Lisbon
+    - 5994 - Stansted to Madrid
+    - 7475 - Paris B to Porto
+    - 4702 - Milan B to Porto
+    - 2673 - Rome C to Stansted
+    - 9968 - Sofia to Stansted
+    - 282 - Toulouse to Stansted
+    - 2135 - Rzeszow to Stansted
+  01/10/2017-08/10/2017-15/10/2017-22/10/2017:
+    - 6341 - Barcelona to Rome F
+    - 9045 - Barcelona to Stansted
+    - 1135 - Barcelona to Berlin
+    - 8885 - Milan B to Brindisi
+    - 7951 - Milan B to Catania
+    - 3772 - Milan B to Bucharest
+    - 3745 - Brussels C to Pisa
+    - 1057 - Brussels C to Warsaw M
+    - 7156 - Dublin to Madrid
+    - 202 - Dublin to Stansted
+    - 1452 - Dublin to Brussels
+    - 7000 - Rome F to Brussels
+    - 4891 - Rome F to Catania
+    - 7060 - Rome F to Barcelona
+    - 1885 - Lisbon to Stansted
+    - 2096 - Lisbon to Porto
+    - 6066 - Lisbon to Terceira
+    - 2017 - Madrid to Lanzarote
+    - 5995 - Madrid to Stansted
+    - 5484 - Madrid to Porto
+    - 8344 - Porto to Stansted
+    - 4584 - Porto to Barcelona
+    - 2862 - Porto to Luxembourg
+    - 8542 - Stansted to Berlin
+    - 2283 - Stansted to Warsaw M
+    - 2672 - Stansted to Rome C
+    - 1394 - Stansted to Oslo
+    - 6342 - Rome F to Barcelona
+    - 9044 - Stansted to Barcelona
+    - 1134 - Berlin to Barcelona
+    - 8886 - Brindisi to Milan B
+    - 7952 - Catania to Milan B
+    - 3773 - Bucharest to Milan B
+    - 3746 - Pisa to Brussels C
+    - 1058 - Warsaw M to Brussels C
+    - 7157 - Madrid to Dublin
+    - 205 - Stansted to Dublin
+    - 1453 - Brussels to Dublin
+    - 7O10 - Brussels to Rome F
+    - 4892 - Catania to Rome F
+    - 7070 - Barcelona to Rome F
+    - 1884 - Stansted to Lisbon
+    - 2095 - Porto to Lisbon
+    - 6067 - Terceira to Lisbon
+    - 2018 - Lanzarote to Madrid
+    - 5996 - Stansted to Madrid
+    - 5485 - Porto to Madrid
+    - 8343 - Stansted to Porto
+    - 4585 - Paris B to Porto
+    - 2863 - Luxembourg to Porto
+    - 8543 - Berlin to Stansted
+    - 2284 - Warsaw M to Stansted
+    - 2673 - Rome C to Stansted
+    - 1395 - Oslo to Stansted
