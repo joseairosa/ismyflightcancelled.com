@@ -2,18 +2,21 @@
 %header.masthead
   .header-content
     .header-content-inner
-      %h1#homeHeading Flight details
-      %hr
-      .container
-        %form
-          .form-group.row
-            .col-md-6.mx-auto
-              %input.form-control.form-control-lg{:placeholder => "Flight Number", :type => "text"}
-          .form-group.row
-            .col-md-6.mx-auto
-              %input.form-control.form-control-lg{"data-provide" => "datepicker", :placeholder => "Flight Date", :type => "text"}
-          .form-group.row
-            .col-md-6.mx-auto
-              %button.btn.btn-primary.btn-xl.js-scroll-trigger{:type => "submit"} Check my flight
-      %hr
-      %p Provide us with your flight details and we'll check if your flight has been cancelled!
+      - if found_flights.nil?
+        = render partial: 'shared/flights_form'
+        %hr
+        %p Provide us with your flight details and we'll check if your flight has been cancelled!
+      - else
+        - if found_flights.empty?
+          %h1#homeHeading Great News!
+          %hr
+          %p= "We're happy to let you know, that so far and to the best of our knowledge, your flight #{requested_flight} on #{requested_date} has not been cancelled!"
+        - else
+          %h1#homeHeading Flight cancelled!
+          %hr
+          %p= "It appears that your flight #{requested_flight} on the #{requested_date} from #{found_flights.first[:flight_travel]} has been cancelled!"
+          %p We recommend that you get in touch with Ryanair as quickly as possible.
+          %p
+            Click here to go directly to
+            %a{href: 'https://www.ryanair.com/gb/en/useful-info/travel-info/winter-schedule-changes'} Ryanair support page
+        %a.btn.btn-primary.btn-xl.js-scroll-trigger{href: root_path} Search another flight

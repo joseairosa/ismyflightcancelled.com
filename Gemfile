@@ -14,6 +14,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'pry-byebug'
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
 end
@@ -31,6 +32,7 @@ gem 'jquery-rails'
 gem 'popper_js'
 gem 'font-awesome-rails'
 gem 'bootstrap-datepicker-rails'
+gem 'chronic'
 group :development do
   gem 'better_errors'
   gem 'html2haml'

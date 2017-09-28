@@ -1,580 +1,1714 @@
 ---
 flights:
   21/09/2017:
-    - 792 - Stansted to Venice Treviso
-    - 936 - Stansted to Perpignan
-    - 9142 - Stansted to Faro
-    - 5172 - Stansted to Billund
-    - 1886 - Stansted to Lisbon
-    - 8403 - Stansted to Brno
-    - 72 - Stansted to Carcassone
-    - 6543 - Stansted to Marseille
-    - 514 - Stansted to Dinard
-    - 1845 - Stansted to Lorient
-    - 8402 - Stansted to Bergerac
-    - 4566 - Brussels Charleroi to Figari
-    - 6316 - Brussels Charleroi to Marseille
-    - 9135 - Porto to Paris Beauvais
-    - 6532 - Porto to Marseille
-    - 7188 - Rome C to Bordeaux
-    - 6031 - East Midlands to Palma
-    - 1632 - East Midlands Limoges
-    - 6266 - Edinburgh to Barcelona
-    - 6654 - Edinburgh to Bordeaux
-    - 9056 - Alicante to Bremen
-    - 5446 - Madrid to Marseille
-    - 3021 - Madrid to Toulouse
-    - 6341 - Barcelona to Rome F
-    - 1135 - Barcelona to Berlin
-    - 504 - Dublin to Bristol
-    - 1986 - Dublin to Nantes
-    - 1958 - Dublin to Nice
-    - 2136 - Stansted to Rzeszow
-    - 2336 - Stansted to Poznan
-    - 9273 - Stansted to Eindhoven
-    - 2860 - Stansted to Luxembourg
-    - 8544 - Stansted to Berlin
-    - 1874 - Stansted to Nice
-    - 281 - Stansted to Toulouse
-    - 1782 - Stansted to Bordeaux
-    - 1516 - Figari to Paris Beauvais
-    - 7782 - Marseille to Malaga
-    - 6772 - Marseille to Nantes
-    - 9635 - Rome C to Paris Beauvais
-    - 4383 - Edinburgh to Frankfurt Hahn
-    - 793 - Venice Treviso to Stansted
-    - 937 - Perpignan to Stansted
-    - 9143 - Faro to Stansted
-    - 5173 - Billund to Stansted
-    - 1887 - Lisbon to Stansted
-    - 8404 - Brno to Stansted
-    - 73 - Carcassone to Stansted
-    - 6544 - Marseille to Stansted
-    - 515 - Dinard to Stansted
-    - 1844 - Lorient to Stansted
-    - 8401 - Bergerac to Stansted
-    - 4567 - Figari to Brussels Charleroi
-    - 6315 - Marseille to Brussels Charleroi
-    - 9134 - Paris Beauvais to Porto
-    - 6531 - Marseille to Porto
-    - 7189 - Bordeaux to Rome C
-    - 6032 - Palma to East Midlands
-    - 1633 - Limoges to East Midlands
-    - 6267 - Barcelona to Edinburgh
-    - 6655 - Bordeaux to Edinburgh
-    - 9057 - Bremen to Alicante
-    - 5447 - Marseille to Madrid
-    - 3022 - Toulouse to Madrid
-    - 6342 - Rome F to Barcelona
-    - 1134 - Berlin to Barcelona
-    - 505 - Bristol to Dublin
-    - 1987 - Nantes to Dublin
-    - 1959 - Nice to Dublin
-    - 2137 - Rzeszow to Stansted
-    - 2337 - Poznan to Stansted
-    - 9274 - Eindhoven to Stansted
-    - 2861 - Luxembourg to Stansted
-    - 8545 - Berlin to Stansted
-    - 1875 - Nice to Stansted
-    - 282 - Toulouse to Stansted
-    - 1783 - Bordeaux to Stansted
-    - 1515 - Paris Beauvais to Figari
-    - 7783 - Malaga to Marseille
-    - 6773 - Nantes to Marseille
-    - 9636 - Paris Beauvais to Rome C
-    - 4382 - Frankfurt Hahn to Edinburgh
-    - 1983 - Biarritz to Dublin
+    -
+      number: 792
+      travel: Stansted to Venice Treviso
+    -
+      number: 936
+      travel: Stansted to Perpignan
+    -
+      number: 9142
+      travel: Stansted to Faro
+    -
+      number: 5172
+      travel: Stansted to Billund
+    -
+      number: 1886
+      travel: Stansted to Lisbon
+    -
+      number: 8403
+      travel: Stansted to Brno
+    -
+      number: 72
+      travel: Stansted to Carcassone
+    -
+      number: 6543
+      travel: Stansted to Marseille
+    -
+      number: 514
+      travel: Stansted to Dinard
+    -
+      number: 1845
+      travel: Stansted to Lorient
+    -
+      number: 8402
+      travel: Stansted to Bergerac
+    -
+      number: 4566
+      travel: Brussels Charleroi to Figari
+    -
+      number: 6316
+      travel: Brussels Charleroi to Marseille
+    -
+      number: 9135
+      travel: Porto to Paris Beauvais
+    -
+      number: 6532
+      travel: Porto to Marseille
+    -
+      number: 7188
+      travel: Rome C to Bordeaux
+    -
+      number: 6031
+      travel: East Midlands to Palma
+    -
+      number: 1632
+      travel: East Midlands Limoges
+    -
+      number: 6266
+      travel: Edinburgh to Barcelona
+    -
+      number: 6654
+      travel: Edinburgh to Bordeaux
+    -
+      number: 9056
+      travel: Alicante to Bremen
+    -
+      number: 5446
+      travel: Madrid to Marseille
+    -
+      number: 3021
+      travel: Madrid to Toulouse
+    -
+      number: 6341
+      travel: Barcelona to Rome F
+    -
+      number: 1135
+      travel: Barcelona to Berlin
+    -
+      number: 504
+      travel: Dublin to Bristol
+    -
+      number: 1986
+      travel: Dublin to Nantes
+    -
+      number: 1958
+      travel: Dublin to Nice
+    -
+      number: 2136
+      travel: Stansted to Rzeszow
+    -
+      number: 2336
+      travel: Stansted to Poznan
+    -
+      number: 9273
+      travel: Stansted to Eindhoven
+    -
+      number: 2860
+      travel: Stansted to Luxembourg
+    -
+      number: 8544
+      travel: Stansted to Berlin
+    -
+      number: 1874
+      travel: Stansted to Nice
+    -
+      number: 281
+      travel: Stansted to Toulouse
+    -
+      number: 1782
+      travel: Stansted to Bordeaux
+    -
+      number: 1516
+      travel: Figari to Paris Beauvais
+    -
+      number: 7782
+      travel: Marseille to Malaga
+    -
+      number: 6772
+      travel: Marseille to Nantes
+    -
+      number: 9635
+      travel: Rome C to Paris Beauvais
+    -
+      number: 4383
+      travel: Edinburgh to Frankfurt Hahn
+    -
+      number: 793
+      travel: Venice Treviso to Stansted
+    -
+      number: 937
+      travel: Perpignan to Stansted
+    -
+      number: 9143
+      travel: Faro to Stansted
+    -
+      number: 5173
+      travel: Billund to Stansted
+    -
+      number: 1887
+      travel: Lisbon to Stansted
+    -
+      number: 8404
+      travel: Brno to Stansted
+    -
+      number: 73
+      travel: Carcassone to Stansted
+    -
+      number: 6544
+      travel: Marseille to Stansted
+    -
+      number: 515
+      travel: Dinard to Stansted
+    -
+      number: 1844
+      travel: Lorient to Stansted
+    -
+      number: 8401
+      travel: Bergerac to Stansted
+    -
+      number: 4567
+      travel: Figari to Brussels Charleroi
+    -
+      number: 6315
+      travel: Marseille to Brussels Charleroi
+    -
+      number: 9134
+      travel: Paris Beauvais to Porto
+    -
+      number: 6531
+      travel: Marseille to Porto
+    -
+      number: 7189
+      travel: Bordeaux to Rome C
+    -
+      number: 6032
+      travel: Palma to East Midlands
+    -
+      number: 1633
+      travel: Limoges to East Midlands
+    -
+      number: 6267
+      travel: Barcelona to Edinburgh
+    -
+      number: 6655
+      travel: Bordeaux to Edinburgh
+    -
+      number: 9057
+      travel: Bremen to Alicante
+    -
+      number: 5447
+      travel: Marseille to Madrid
+    -
+      number: 3022
+      travel: Toulouse to Madrid
+    -
+      number: 6342
+      travel: Rome F to Barcelona
+    -
+      number: 1134
+      travel: Berlin to Barcelona
+    -
+      number: 505
+      travel: Bristol to Dublin
+    -
+      number: 1987
+      travel: Nantes to Dublin
+    -
+      number: 1959
+      travel: Nice to Dublin
+    -
+      number: 2137
+      travel: Rzeszow to Stansted
+    -
+      number: 2337
+      travel: Poznan to Stansted
+    -
+      number: 9274
+      travel: Eindhoven to Stansted
+    -
+      number: 2861
+      travel: Luxembourg to Stansted
+    -
+      number: 8545
+      travel: Berlin to Stansted
+    -
+      number: 1875
+      travel: Nice to Stansted
+    -
+      number: 282
+      travel: Toulouse to Stansted
+    -
+      number: 1783
+      travel: Bordeaux to Stansted
+    -
+      number: 1515
+      travel: Paris Beauvais to Figari
+    -
+      number: 7783
+      travel: Malaga to Marseille
+    -
+      number: 6773
+      travel: Nantes to Marseille
+    -
+      number: 9636
+      travel: Paris Beauvais to Rome C
+    -
+      number: 4382
+      travel: Frankfurt Hahn to Edinburgh
+    -
+      number: 1983
+      travel: Biarritz to Dublin
   22/09/2017:
-    - 876 - Stansted to Beziers
-    - 8396 - Stansted to Jerez
-    - 2642 - Stansted to Riga
-    - 9961 - Stansted to Sofia
-    - 9811 - Barcelona to Stansted
-    - 1135 - Barcelona to Berlin
-    - 154 - Madrid to Hamburg
-    - 1062 - Madrid to Warsaw Modlin
-    - 4703 - Porto to Milan Bergamo
-    - 6532 - Porto to Marseille
-    - 9995 - Pisa to Berlin
-    - 2684 - Edinburgh to Stansted
-    - 201 - Brussels Charleroi to Copenhagen
-    - 8048 - Brussels Charleroi to Nimes
-    - 5092 - Milan Bergamo to Lamezia
-    - 5392 - Milan Bergamo to Lamezia
-    - 7382 - Stansted to Copenhagen
-    - 9282 - Stansted to Faro
-    - 6305 - Barcelona to Milan Bergamo
-    - 6505 - Marseille to Eindhoven
-    - 8888 - Edinburgh to Stansted
-    - 4071 - Brussels Charleroi to La Rochelle
-    - 6055 - Brussels Charleroi to Venice Treviso
-    - 6115 - Milan Begamo to Naples
-    - 5217 - Milan Begamo to Bremen
-    - 877 - Beziers to Stansted
-    - 8397 - Jerez to Stansted
-    - 2643 - Riga to Stansted
-    - 9962 - Sofia to Stansted
-    - 9810 - Stansted to Barcelona
-    - 1134 - Berlin to Barcelona
-    - 155 - Hamburg to Madrid
-    - 1063 - Warsaw Modlin to Madrid
-    - 4702 - Milan Bergamo to Porto
-    - 6531 - Marseille to Porto
-    - 9996 - Berlin to Pisa
-    - 2685 - Stansted to Edinburgh
-    - 200 - Copenhagen to Brussels Charleroi
-    - 8049 - Nimes to Brussels Charleroi
-    - 5093 - Lamezia Milan to Bergamo
-    - 5393 - Lamezia Milan to Bergamo
-    - 7381 - Copenhagen to Stansted
-    - 9283 - Faro to Stansted
-    - 6304 - Milan Bergamo to Barcelona
-    - 6506 - Eindhoven to Marseille
-    - 8887 - Stansted to Edinburgh
-    - 4072 - La Rochelle to Brussels Charleroi
-    - 6066 - Venice Treviso to Brussels Charleroi
-    - 6114 - Naples to Milan Begamo
-    - 5216 - Bremen to Milan Begamo
+    -
+      number: 876
+      travel: Stansted to Beziers
+    -
+      number: 8396
+      travel: Stansted to Jerez
+    -
+      number: 2642
+      travel: Stansted to Riga
+    -
+      number: 9961
+      travel: Stansted to Sofia
+    -
+      number: 9811
+      travel: Barcelona to Stansted
+    -
+      number: 1135
+      travel: Barcelona to Berlin
+    -
+      number: 154
+      travel: Madrid to Hamburg
+    -
+      number: 1062
+      travel: Madrid to Warsaw Modlin
+    -
+      number: 4703
+      travel: Porto to Milan Bergamo
+    -
+      number: 6532
+      travel: Porto to Marseille
+    -
+      number: 9995
+      travel: Pisa to Berlin
+    -
+      number: 2684
+      travel: Edinburgh to Stansted
+    -
+      number: 201
+      travel: Brussels Charleroi to Copenhagen
+    -
+      number: 8048
+      travel: Brussels Charleroi to Nimes
+    -
+      number: 5092
+      travel: Milan Bergamo to Lamezia
+    -
+      number: 5392
+      travel: Milan Bergamo to Lamezia
+    -
+      number: 7382
+      travel: Stansted to Copenhagen
+    -
+      number: 9282
+      travel: Stansted to Faro
+    -
+      number: 6305
+      travel: Barcelona to Milan Bergamo
+    -
+      number: 6505
+      travel: Marseille to Eindhoven
+    -
+      number: 8888
+      travel: Edinburgh to Stansted
+    -
+      number: 4071
+      travel: Brussels Charleroi to La Rochelle
+    -
+      number: 6055
+      travel: Brussels Charleroi to Venice Treviso
+    -
+      number: 6115
+      travel: Milan Begamo to Naples
+    -
+      number: 5217
+      travel: Milan Begamo to Bremen
+    -
+      number: 877
+      travel: Beziers to Stansted
+    -
+      number: 8397
+      travel: Jerez to Stansted
+    -
+      number: 2643
+      travel: Riga to Stansted
+    -
+      number: 9962
+      travel: Sofia to Stansted
+    -
+      number: 9810
+      travel: Stansted to Barcelona
+    -
+      number: 1134
+      travel: Berlin to Barcelona
+    -
+      number: 155
+      travel: Hamburg to Madrid
+    -
+      number: 1063
+      travel: Warsaw Modlin to Madrid
+    -
+      number: 4702
+      travel: Milan Bergamo to Porto
+    -
+      number: 6531
+      travel: Marseille to Porto
+    -
+      number: 9996
+      travel: Berlin to Pisa
+    -
+      number: 2685
+      travel: Stansted to Edinburgh
+    -
+      number: 200
+      travel: Copenhagen to Brussels Charleroi
+    -
+      number: 8049
+      travel: Nimes to Brussels Charleroi
+    -
+      number: 5093
+      travel: Lamezia Milan to Bergamo
+    -
+      number: 5393
+      travel: Lamezia Milan to Bergamo
+    -
+      number: 7381
+      travel: Copenhagen to Stansted
+    -
+      number: 9283
+      travel: Faro to Stansted
+    -
+      number: 6304
+      travel: Milan Bergamo to Barcelona
+    -
+      number: 6506
+      travel: Eindhoven to Marseille
+    -
+      number: 8887
+      travel: Stansted to Edinburgh
+    -
+      number: 4072
+      travel: La Rochelle to Brussels Charleroi
+    -
+      number: 6066
+      travel: Venice Treviso to Brussels Charleroi
+    -
+      number: 6114
+      travel: Naples to Milan Begamo
+    -
+      number: 5216
+      travel: Bremen to Milan Begamo
   23/09/2017:
-    - 4976 - Stansted to Brindisi
-    - 8555 - Stansted to Castellon
-    - 9142 - Stansted to Faro
-    - 72 - Stansted to Carcassone
-    - 7963 - Stansted to Brive
-    - 8371 - Stansted to Budapest
-    - 1251 - Stansted to Aalborg
-    - 9524 - Stansted to Lublin
-    - 4231 - Milan Bergamo to Paris Beauvais
-    - 5831 - Milan Bergamo to Bordeaux
-    - 1791 - Lisbon to Luxembourg
-    - 6374 - Barcelona to Paris Beauvais
-    - 1135 - Barcelona to Berlin
-    - 3956 - Rome Ciampino to Bucharest
-    - 7188 - Rome Ciampino to Bordeaux
-    - 1984 - Dublin to Carcassone
-    - 1958 - Dublin to Nice
-    - 4188 - Glasgow to Carcassone
-    - 8445 - Stansed to Budapest
-    - 8495 - Milan Bergamo to Brindisi
-    - 8892 - Milan Bergamo to Palermo
-    - 1798 - Lisbon to Toulouse
-    - 9111 - Barcelona to Turin
-    - 9662 - Rome Ciampino to Krakow
-    - 1986 - Dublin to Nantes
-    - 4977 - Brindisi to Stansted
-    - 8554 - Castellon to Stansted
-    - 9143 - Faro to Stansted
-    - 73 - Carcassone to Stansted
-    - 7964 - Brive to Stansted
-    - 8369 - Budapest to Stansted
-    - 1252 - Aalborg to Stansted
-    - 9525 - Lublin to Stansted
-    - 4232 - Paris Beauvais to Milan Bergamo
-    - 5832 - Bordeaux to Milan Bergamo
-    - 1792 - Luxembourg to Lisbon
-    - 6375 - Paris Beauvais to Barcelona
-    - 1134 - Berlin to Barcelona
-    - 3957 - Bucharest to Rome Ciampino
-    - 7189 - Bordeaux to Rome Ciampino
-    - 1985 - Carcassone to Dublin
-    - 1959 - Nice to Dublin
-    - 4189 - Carcassone to Glasgow
-    - 8446 - Budapest to Stansed
-    - 8496 - Brindisi to Milan Bergamo
-    - 8893 - Palermo to Milan Bergamo
-    - 1799 - Toulouse to Lisbon
-    - 9112 - Turin to Barcelona
-    - 9663 - Krakow to Rome Ciampino
-    - 1987 - Nantes to Dublin
+    -
+      number: 4976
+      travel: Stansted to Brindisi
+    -
+      number: 8555
+      travel: Stansted to Castellon
+    -
+      number: 9142
+      travel: Stansted to Faro
+    -
+      number: 72
+      travel: Stansted to Carcassone
+    -
+      number: 7963
+      travel: Stansted to Brive
+    -
+      number: 8371
+      travel: Stansted to Budapest
+    -
+      number: 1251
+      travel: Stansted to Aalborg
+    -
+      number: 9524
+      travel: Stansted to Lublin
+    -
+      number: 4231
+      travel: Milan Bergamo to Paris Beauvais
+    -
+      number: 5831
+      travel: Milan Bergamo to Bordeaux
+    -
+      number: 1791
+      travel: Lisbon to Luxembourg
+    -
+      number: 6374
+      travel: Barcelona to Paris Beauvais
+    -
+      number: 1135
+      travel: Barcelona to Berlin
+    -
+      number: 3956
+      travel: Rome Ciampino to Bucharest
+    -
+      number: 7188
+      travel: Rome Ciampino to Bordeaux
+    -
+      number: 1984
+      travel: Dublin to Carcassone
+    -
+      number: 1958
+      travel: Dublin to Nice
+    -
+      number: 4188
+      travel: Glasgow to Carcassone
+    -
+      number: 8445
+      travel: Stansed to Budapest
+    -
+      number: 8495
+      travel: Milan Bergamo to Brindisi
+    -
+      number: 8892
+      travel: Milan Bergamo to Palermo
+    -
+      number: 1798
+      travel: Lisbon to Toulouse
+    -
+      number: 9111
+      travel: Barcelona to Turin
+    -
+      number: 9662
+      travel: Rome Ciampino to Krakow
+    -
+      number: 1986
+      travel: Dublin to Nantes
+    -
+      number: 4977
+      travel: Brindisi to Stansted
+    -
+      number: 8554
+      travel: Castellon to Stansted
+    -
+      number: 9143
+      travel: Faro to Stansted
+    -
+      number: 73
+      travel: Carcassone to Stansted
+    -
+      number: 7964
+      travel: Brive to Stansted
+    -
+      number: 8369
+      travel: Budapest to Stansted
+    -
+      number: 1252
+      travel: Aalborg to Stansted
+    -
+      number: 9525
+      travel: Lublin to Stansted
+    -
+      number: 4232
+      travel: Paris Beauvais to Milan Bergamo
+    -
+      number: 5832
+      travel: Bordeaux to Milan Bergamo
+    -
+      number: 1792
+      travel: Luxembourg to Lisbon
+    -
+      number: 6375
+      travel: Paris Beauvais to Barcelona
+    -
+      number: 1134
+      travel: Berlin to Barcelona
+    -
+      number: 3957
+      travel: Bucharest to Rome Ciampino
+    -
+      number: 7189
+      travel: Bordeaux to Rome Ciampino
+    -
+      number: 1985
+      travel: Carcassone to Dublin
+    -
+      number: 1959
+      travel: Nice to Dublin
+    -
+      number: 4189
+      travel: Carcassone to Glasgow
+    -
+      number: 8446
+      travel: Budapest to Stansed
+    -
+      number: 8496
+      travel: Brindisi to Milan Bergamo
+    -
+      number: 8893
+      travel: Palermo to Milan Bergamo
+    -
+      number: 1799
+      travel: Toulouse to Lisbon
+    -
+      number: 9112
+      travel: Turin to Barcelona
+    -
+      number: 9663
+      travel: Krakow to Rome Ciampino
+    -
+      number: 1987
+      travel: Nantes to Dublin
   24/09/2017:
-    - 2225 - Stansted to Talinn
-    - 8403 - Stansted to Brno
-    - 7117 - Stansted to Strasbourg
-    - 1886 - Stansted to Lisbon
-    - 4952 - Stansted to Perugia
-    - 4703 - Porto to Milan Bergamo
-    - 3011 - Madrid to Toulouse
-    - 5997 - Madrid to Stansted
-    - 2676 - Bologna to Copenhagen
-    - 3990 - Bologna to Bucharest
-    - 721 - Berlin to Verona
-    - 198 - Berlin to Bratislava
-    - 7352 - Edinburgh to Brussels Charleroi
-    - 2105 - Brussels Charleroi to Toulouse
-    - 4526 - Brussels Charleroi to Milan Bergamo
-    - 9135 - Porto to Paris Beauvais
-    - 8348 - Porto to Stansted
-    - 8544 - Stansted to Berlin
-    - 3632 - Stansted to Bremen
-    - 5047 - Madrid to Verona
-    - 1195 - Bologna to Stansted
-    - 164 - Berlin to Brussels
-    - 140 - Berlin to Rome Ciampino
-    - 8416 - Brussels Charleroi to Budapest
-    - 7466 - Porto to St. Etienne
-    - 2224 - Tallinn to Stansted
-    - 8404 - Brno to Stansted
-    - 7118 - Strasbourg to Stansted
-    - 1887 - Lisbon to Stansted
-    - 4953 - Perugia to Stansted
-    - 4702 - Milan Bergamo to Porto
-    - 3012 - Toulouse to Madrid
-    - 5998 - Stansted to Madrid
-    - 2677 - Copenhagen to Bologna
-    - 3991 - Bucharest to Bologna
-    - 722 - Verona to Berlin
-    - 199 - Bratislava to Berlin
-    - 7353 - Brussels Charleroi to Edinburgh
-    - 2106 - Toulouse to Brussels Charleroi
-    - 4527 - Milan Bergamo to Brussels Charleroi
-    - 9134 - Paris Beauvais to Porto
-    - 8347 - Stansted to Porto
-    - 8545 - Berlin to Stansted
-    - 3631 - Bremen to Stansted
-    - 5048 - Verona to Madrid
-    - 1194 - Stansted to Bologna
-    - 165 - Brussels to Berlin
-    - 141 - Rome Ciampino to Berlin
-    - 8415 - Budapest to Brussels Charleroi
-    - 7467 - St. Etienne to Porto
+    -
+      number: 2225
+      travel: Stansted to Talinn
+    -
+      number: 8403
+      travel: Stansted to Brno
+    -
+      number: 7117
+      travel: Stansted to Strasbourg
+    -
+      number: 1886
+      travel: Stansted to Lisbon
+    -
+      number: 4952
+      travel: Stansted to Perugia
+    -
+      number: 4703
+      travel: Porto to Milan Bergamo
+    -
+      number: 3011
+      travel: Madrid to Toulouse
+    -
+      number: 5997
+      travel: Madrid to Stansted
+    -
+      number: 2676
+      travel: Bologna to Copenhagen
+    -
+      number: 3990
+      travel: Bologna to Bucharest
+    -
+      number: 721
+      travel: Berlin to Verona
+    -
+      number: 198
+      travel: Berlin to Bratislava
+    -
+      number: 7352
+      travel: Edinburgh to Brussels Charleroi
+    -
+      number: 2105
+      travel: Brussels Charleroi to Toulouse
+    -
+      number: 4526
+      travel: Brussels Charleroi to Milan Bergamo
+    -
+      number: 9135
+      travel: Porto to Paris Beauvais
+    -
+      number: 8348
+      travel: Porto to Stansted
+    -
+      number: 8544
+      travel: Stansted to Berlin
+    -
+      number: 3632
+      travel: Stansted to Bremen
+    -
+      number: 5047
+      travel: Madrid to Verona
+    -
+      number: 1195
+      travel: Bologna to Stansted
+    -
+      number: 164
+      travel: Berlin to Brussels
+    -
+      number: 140
+      travel: Berlin to Rome Ciampino
+    -
+      number: 8416
+      travel: Brussels Charleroi to Budapest
+    -
+      number: 7466
+      travel: Porto to St. Etienne
+    -
+      number: 2224
+      travel: Tallinn to Stansted
+    -
+      number: 8404
+      travel: Brno to Stansted
+    -
+      number: 7118
+      travel: Strasbourg to Stansted
+    -
+      number: 1887
+      travel: Lisbon to Stansted
+    -
+      number: 4953
+      travel: Perugia to Stansted
+    -
+      number: 4702
+      travel: Milan Bergamo to Porto
+    -
+      number: 3012
+      travel: Toulouse to Madrid
+    -
+      number: 5998
+      travel: Stansted to Madrid
+    -
+      number: 2677
+      travel: Copenhagen to Bologna
+    -
+      number: 3991
+      travel: Bucharest to Bologna
+    -
+      number: 722
+      travel: Verona to Berlin
+    -
+      number: 199
+      travel: Bratislava to Berlin
+    -
+      number: 7353
+      travel: Brussels Charleroi to Edinburgh
+    -
+      number: 2106
+      travel: Toulouse to Brussels Charleroi
+    -
+      number: 4527
+      travel: Milan Bergamo to Brussels Charleroi
+    -
+      number: 9134
+      travel: Paris Beauvais to Porto
+    -
+      number: 8347
+      travel: Stansted to Porto
+    -
+      number: 8545
+      travel: Berlin to Stansted
+    -
+      number: 3631
+      travel: Bremen to Stansted
+    -
+      number: 5048
+      travel: Verona to Madrid
+    -
+      number: 1194
+      travel: Stansted to Bologna
+    -
+      number: 165
+      travel: Brussels to Berlin
+    -
+      number: 141
+      travel: Rome Ciampino to Berlin
+    -
+      number: 8415
+      travel: Budapest to Brussels Charleroi
+    -
+      number: 7467
+      travel: St. Etienne to Porto
   25/09/2017-02/10/2017-09/10/2017-16/10/2017-23/10/2017:
-    - 6341 - Barcelona to Rome F
-    - 9045 - Barcelona to Stansted
-    - 4545 - Barcelona to Porto
-    - 8495 - Milan B to Brindisi
-    - 5392 - Milan B to Lamezia
-    - 4113 - Milan Bergamo to Naples
-    - 4197 - Milan B to Stansted
-    - 4522 - Brussels C to Milan Bergamo
-    - 1055 - Brussels C to Warsaw M
-    - 3239 - Brussels C to Manchester
-    - 201 - Brussels C to Copenhagen
-    - 672 - Dublin to Birmingham
-    - 26 - Dublin to Paris Beauvais
-    - 9428 - Dublin to Milan B
-    - 7000 - Rome Fiumicino to Brussels
-    - 4891 - Rome F to Catania
-    - 7060 - Rome F to Barcelona
-    - 1885 - Lisbon to Stansted
-    - 2096 - Lisbon to Porto
-    - 5993 - Madrid to Stansted
-    - 8344 - Porto to Stansted
-    - 8542 - Stansted to Berlin
-    - 2498 - Stansted to Bratislava
-    - 2283 - Stansted to Warsaw M
-    - 2672 - Stansted to Rome Ciampino
-    - 6342 - Rome F to Barcelona
-    - 9044 - Stansted to Barcelona
-    - 4546 - Porto to Barcelona
-    - 8496 - Brindisi to Milan B
-    - 5393 - Lamezia to Milan B
-    - 4114 - Naples to Milan B
-    - 4198 - Stansted to Milan B
-    - 4S23 - Milan B to Brussels C
-    - 1056 - Warsaw M to Brussels C
-    - 3238 - Manchester to Brussels C
-    - 200 - Copenhagen to Brussels C
-    - 673 - Birmingham to Dublin
-    - 29 - Paris B to Dublin
-    - 9429 - Milan B to Dublin
-    - 7010 - Brussels to Rome F
-    - 4892 - Catania to Rome F
-    - 7070 - Barcelona to Rome F
-    - 1880 - Stansted to Lisbon
-    - 2095 - Porto to Lisbon
-    - 5994 - Stansted to Madrid
-    - 8343 - Stansted to Porto
-    - 8S43 - Berlin to Stansted
-    - 2499 - Bratislava to Stansted
-    - 2284 - Warsaw M to Stansted
-    - 2673 - Rome C to Stansted
+    -
+      number: 6341
+      travel: Barcelona to Rome F
+    -
+      number: 9045
+      travel: Barcelona to Stansted
+    -
+      number: 4545
+      travel: Barcelona to Porto
+    -
+      number: 8495
+      travel: Milan B to Brindisi
+    -
+      number: 5392
+      travel: Milan B to Lamezia
+    -
+      number: 4113
+      travel: Milan Bergamo to Naples
+    -
+      number: 4197
+      travel: Milan B to Stansted
+    -
+      number: 4522
+      travel: Brussels C to Milan Bergamo
+    -
+      number: 1055
+      travel: Brussels C to Warsaw M
+    -
+      number: 3239
+      travel: Brussels C to Manchester
+    -
+      number: 201
+      travel: Brussels C to Copenhagen
+    -
+      number: 672
+      travel: Dublin to Birmingham
+    -
+      number: 26
+      travel: Dublin to Paris Beauvais
+    -
+      number: 9428
+      travel: Dublin to Milan B
+    -
+      number: 7000
+      travel: Rome Fiumicino to Brussels
+    -
+      number: 4891
+      travel: Rome F to Catania
+    -
+      number: 7060
+      travel: Rome F to Barcelona
+    -
+      number: 1885
+      travel: Lisbon to Stansted
+    -
+      number: 2096
+      travel: Lisbon to Porto
+    -
+      number: 5993
+      travel: Madrid to Stansted
+    -
+      number: 8344
+      travel: Porto to Stansted
+    -
+      number: 8542
+      travel: Stansted to Berlin
+    -
+      number: 2498
+      travel: Stansted to Bratislava
+    -
+      number: 2283
+      travel: Stansted to Warsaw M
+    -
+      number: 2672
+      travel: Stansted to Rome Ciampino
+    -
+      number: 6342
+      travel: Rome F to Barcelona
+    -
+      number: 9044
+      travel: Stansted to Barcelona
+    -
+      number: 4546
+      travel: Porto to Barcelona
+    -
+      number: 8496
+      travel: Brindisi to Milan B
+    -
+      number: 5393
+      travel: Lamezia to Milan B
+    -
+      number: 4114
+      travel: Naples to Milan B
+    -
+      number: 4198
+      travel: Stansted to Milan B
+    -
+      number: 4S23
+      travel: Milan B to Brussels C
+    -
+      number: 1056
+      travel: Warsaw M to Brussels C
+    -
+      number: 3238
+      travel: Manchester to Brussels C
+    -
+      number: 200
+      travel: Copenhagen to Brussels C
+    -
+      number: 673
+      travel: Birmingham to Dublin
+    -
+      number: 29
+      travel: Paris B to Dublin
+    -
+      number: 9429
+      travel: Milan B to Dublin
+    -
+      number: 7010
+      travel: Brussels to Rome F
+    -
+      number: 4892
+      travel: Catania to Rome F
+    -
+      number: 7070
+      travel: Barcelona to Rome F
+    -
+      number: 1880
+      travel: Stansted to Lisbon
+    -
+      number: 2095
+      travel: Porto to Lisbon
+    -
+      number: 5994
+      travel: Stansted to Madrid
+    -
+      number: 8343
+      travel: Stansted to Porto
+    -
+      number: 8S43
+      travel: Berlin to Stansted
+    -
+      number: 2499
+      travel: Bratislava to Stansted
+    -
+      number: 2284
+      travel: Warsaw M to Stansted
+    -
+      number: 2673
+      travel: Rome C to Stansted
   26/09/2017-03/10/2017-10/10/2017-17/10/2017-24/10/2017:
-    - 6341 - Barcelona to Rome F
-    - 9045 - Barcelona to Stansted
-    - 8495 - Milan B to Brindisi
-    - 4113 - Milan B to Naples
-    - 4197 - Milan B to Stansted
-    - 201 - Brussels C to Copenhagen
-    - 6316 - Brussels C to Marseille
-    - 26 - Dublin to Paris B
-    - 9428 - Dublin to Milan B
-    - 211 - Dublin to Stansted
-    - 7000 - Rome F to Brussels
-    - 4891 - Rome F to Catania
-    - 7060 - Rome F to Barcelona
-    - 1885 - Lisbon to Stansted
-    - 5993 - Madrid to Stansted
-    - 5317 - Madrid to Santiago
-    - 8344 - Porto to Stansted
-    - 7474 - Porto to Paris B
-    - 2672 - Stansted to Rome C
-    - 972 - Stansted to Genoa
-    - 1374 - Stansted to Prague
-    - 6342 - Rome F to Barcelona
-    - 9040 - Stansted to Barcelona
-    - 8496 - Brindisi to Milan B
-    - 4114 - Naples to Milan B
-    - 4198 - Stansted to Milan B
-    - 200 - Copenhagen to Brussels C
-    - 6315 - Marseille to Brussels C
-    - 29 - Paris B to Dublin
-    - 9029 - Milan B to Dublin
-    - 212 - Stansted to Dublin
-    - 7010 - Brussels to Rome F
-    - 4892 - Catania to Rome F
-    - 7070 - Barcelona to Rome F
-    - 1880 - Stansted to Lisbon
-    - 1880 - Stansted to Madrid
-    - 5318 - Santiago de Compostela to Madrid
-    - 8343 - Stansted to Porto
-    - 7475 - Paris B to Porto
-    - 2673 - Rome C to Stansted
-    - 973 - Genoa to Stansted
-    - 1375 - Prague to Stansted
+    -
+      number: 6341
+      travel: Barcelona to Rome F
+    -
+      number: 9045
+      travel: Barcelona to Stansted
+    -
+      number: 8495
+      travel: Milan B to Brindisi
+    -
+      number: 4113
+      travel: Milan B to Naples
+    -
+      number: 4197
+      travel: Milan B to Stansted
+    -
+      number: 201
+      travel: Brussels C to Copenhagen
+    -
+      number: 6316
+      travel: Brussels C to Marseille
+    -
+      number: 26
+      travel: Dublin to Paris B
+    -
+      number: 9428
+      travel: Dublin to Milan B
+    -
+      number: 211
+      travel: Dublin to Stansted
+    -
+      number: 7000
+      travel: Rome F to Brussels
+    -
+      number: 4891
+      travel: Rome F to Catania
+    -
+      number: 7060
+      travel: Rome F to Barcelona
+    -
+      number: 1885
+      travel: Lisbon to Stansted
+    -
+      number: 5993
+      travel: Madrid to Stansted
+    -
+      number: 5317
+      travel: Madrid to Santiago
+    -
+      number: 8344
+      travel: Porto to Stansted
+    -
+      number: 7474
+      travel: Porto to Paris B
+    -
+      number: 2672
+      travel: Stansted to Rome C
+    -
+      number: 972
+      travel: Stansted to Genoa
+    -
+      number: 1374
+      travel: Stansted to Prague
+    -
+      number: 6342
+      travel: Rome F to Barcelona
+    -
+      number: 9040
+      travel: Stansted to Barcelona
+    -
+      number: 8496
+      travel: Brindisi to Milan B
+    -
+      number: 4114
+      travel: Naples to Milan B
+    -
+      number: 4198
+      travel: Stansted to Milan B
+    -
+      number: 200
+      travel: Copenhagen to Brussels C
+    -
+      number: 6315
+      travel: Marseille to Brussels C
+    -
+      number: 29
+      travel: Paris B to Dublin
+    -
+      number: 9029
+      travel: Milan B to Dublin
+    -
+      number: 212
+      travel: Stansted to Dublin
+    -
+      number: 7010
+      travel: Brussels to Rome F
+    -
+      number: 4892
+      travel: Catania to Rome F
+    -
+      number: 7070
+      travel: Barcelona to Rome F
+    -
+      number: 1880
+      travel: Stansted to Lisbon
+    -
+      number: 1880
+      travel: Stansted to Madrid
+    -
+      number: 5318
+      travel: Santiago de Compostela to Madrid
+    -
+      number: 8343
+      travel: Stansted to Porto
+    -
+      number: 7475
+      travel: Paris B to Porto
+    -
+      number: 2673
+      travel: Rome C to Stansted
+    -
+      number: 973
+      travel: Genoa to Stansted
+    -
+      number: 1375
+      travel: Prague to Stansted
   27/09/2017-04/10/2017-11/10/2017-18/10/2017-25/10/2017:
-    - 9005 - Barcelona to Stansted
-    - 8495 - Milan B to Brindisi
-    - 5192 - Milan B to Lamezia
-    - 2105 - Brussels C to Toulouse
-    - 9428 - Dublin to Milan B
-    - 506 - Dublin to Bristol
-    - 7000 - Rome F to Brussels
-    - 4891 - Rome F to Catania
-    - 7060 - Rome F to Barcelona
-    - 1885 - Lisbon to Stansted
-    - 2932 - Lisbon to Brussels
-    - 5993 - Madrid to Stansted
-    - 2528 - Madrid to Berlin
-    - 8344 - Porto to Stansted
-    - 4586 - Porto to Barcelona
-    - 8502 - Stansted to Berlin
-    - 2283 - Stansted to Warsaw M
-    - 2672 - Stansted to Rome C
-    - 3717 - Stansted to Budapest
-    - 9040 - Stansted to Barcelona
-    - 8496 - Brindisi to Milan B
-    - 5193 - Lamezia to Milan B
-    - 2106 - Toulouse to Brussels C
-    - 9029 - Milan B to Dublin
-    - 507 - Bristol to Dublin
-    - 7010 - Brussels to Rome F
-    - 4892 - Catania to Rome F
-    - 7070 - Barcelona to Rome F
-    - 1880 - Stansted to Lisbon
-    - 2931 - Brussels to Lisbon
-    - 5990 - Stansted to Madrid
-    - 2S29 - Berlin to Madrid
-    - 8343 - Stansted to Porto
-    - 4587 - Barcelona to Porto
-    - 8543 - Berlin to Stansted
-    - 2284 - Warsaw M to Stansted
-    - 2673 - Rome C to Stansted
-    - 3718 - Budapest to Stansted
+    -
+      number: 9005
+      travel: Barcelona to Stansted
+    -
+      number: 8495
+      travel: Milan B to Brindisi
+    -
+      number: 5192
+      travel: Milan B to Lamezia
+    -
+      number: 2105
+      travel: Brussels C to Toulouse
+    -
+      number: 9428
+      travel: Dublin to Milan B
+    -
+      number: 506
+      travel: Dublin to Bristol
+    -
+      number: 7000
+      travel: Rome F to Brussels
+    -
+      number: 4891
+      travel: Rome F to Catania
+    -
+      number: 7060
+      travel: Rome F to Barcelona
+    -
+      number: 1885
+      travel: Lisbon to Stansted
+    -
+      number: 2932
+      travel: Lisbon to Brussels
+    -
+      number: 5993
+      travel: Madrid to Stansted
+    -
+      number: 2528
+      travel: Madrid to Berlin
+    -
+      number: 8344
+      travel: Porto to Stansted
+    -
+      number: 4586
+      travel: Porto to Barcelona
+    -
+      number: 8502
+      travel: Stansted to Berlin
+    -
+      number: 2283
+      travel: Stansted to Warsaw M
+    -
+      number: 2672
+      travel: Stansted to Rome C
+    -
+      number: 3717
+      travel: Stansted to Budapest
+    -
+      number: 9040
+      travel: Stansted to Barcelona
+    -
+      number: 8496
+      travel: Brindisi to Milan B
+    -
+      number: 5193
+      travel: Lamezia to Milan B
+    -
+      number: 2106
+      travel: Toulouse to Brussels C
+    -
+      number: 9029
+      travel: Milan B to Dublin
+    -
+      number: 507
+      travel: Bristol to Dublin
+    -
+      number: 7010
+      travel: Brussels to Rome F
+    -
+      number: 4892
+      travel: Catania to Rome F
+    -
+      number: 7070
+      travel: Barcelona to Rome F
+    -
+      number: 1880
+      travel: Stansted to Lisbon
+    -
+      number: 2931
+      travel: Brussels to Lisbon
+    -
+      number: 5990
+      travel: Stansted to Madrid
+    -
+      number: 2S29
+      travel: Berlin to Madrid
+    -
+      number: 8343
+      travel: Stansted to Porto
+    -
+      number: 4587
+      travel: Barcelona to Porto
+    -
+      number: 8543
+      travel: Berlin to Stansted
+    -
+      number: 2284
+      travel: Warsaw M to Stansted
+    -
+      number: 2673
+      travel: Rome C to Stansted
+    -
+      number: 3718
+      travel: Budapest to Stansted
   28/09/2017-05/10/2017-12/10/2017-19/10/2017-26/10/2017:
-    - 6341 - Barcelona to Rome F
-    - 9045 - Barcelona to Stansted
-    - 9162 - Barcelona to Birmingham
-    - 8495 - Milan B to Brindisi
-    - 2990 - Milan B to Copenhagen
-    - 4199 - Milan B to Stansted
-    - 1055 - Brussels C to Warsaw M
-    - 6055 - Brussels C to Venice
-    - 26 - Dublin to Paris B
-    - 46 - Dublin to Brussels C
-    - 3978 - Dublin to Madrid
-    - 7000 - Rome F to Brussels Zaventem
-    - 4891 - Rome F to Catania
-    - 7060 - Rome F to Barcelona
-    - 1885 - Lisbon to Stansted
-    - 2096 - Lisbon to Porto
-    - 5993 - Madrid to Stansted
-    - 5317 - Madrid to Santiago
-    - 9135 - Porto to Paris B
-    - 8348 - Porto to Stansted
-    - 8542 - Stansted to Berlin
-    - 2672 - Stansted to Rome C
-    - 9967 - Stansted to Sofia
-    - 5062 - Stansted to Poznan
-    - 6342 - Rome F to Barcelona
-    - 9044 - Stansted to Barcelona
-    - 9163 - Birmingham to Barcelona
-    - 8496 - Brindisi to Milan B
-    - 2989 - Copenhagen to Milan B
-    - 4194 - Stansted to Milan B
-    - 1056 - Warsaw M to Brussels C
-    - 6056 - Venice to Brussels C
-    - 29 - Paris B to Dublin
-    - 47 - Brussels C to Dublin
-    - 3979 - Madrid to Dublin
-    - 7010 - Brussels Z to Rome F
-    - 4892 - Catania to Rome F
-    - 7070 - Barcelona to Rome F
-    - 1884 - Stansted to Lisbon
-    - 2095 - Porto to Lisbon
-    - 5994 - Stansted to Madrid
-    - 5318 - Santiago to Madrid
-    - 9134 - Paris B to Porto
-    - 8347 - Stansted to Porto
-    - 8543 - Berlin to Stansted
-    - 2673 - Rome C to Stansted
-    - 9968 - Sofia to Stansted
-    - 5063 - Poznan to Stansted
+    -
+      number: 6341
+      travel: Barcelona to Rome F
+    -
+      number: 9045
+      travel: Barcelona to Stansted
+    -
+      number: 9162
+      travel: Barcelona to Birmingham
+    -
+      number: 8495
+      travel: Milan B to Brindisi
+    -
+      number: 2990
+      travel: Milan B to Copenhagen
+    -
+      number: 4199
+      travel: Milan B to Stansted
+    -
+      number: 1055
+      travel: Brussels C to Warsaw M
+    -
+      number: 6055
+      travel: Brussels C to Venice
+    -
+      number: 26
+      travel: Dublin to Paris B
+    -
+      number: 46
+      travel: Dublin to Brussels C
+    -
+      number: 3978
+      travel: Dublin to Madrid
+    -
+      number: 7000
+      travel: Rome F to Brussels Zaventem
+    -
+      number: 4891
+      travel: Rome F to Catania
+    -
+      number: 7060
+      travel: Rome F to Barcelona
+    -
+      number: 1885
+      travel: Lisbon to Stansted
+    -
+      number: 2096
+      travel: Lisbon to Porto
+    -
+      number: 5993
+      travel: Madrid to Stansted
+    -
+      number: 5317
+      travel: Madrid to Santiago
+    -
+      number: 9135
+      travel: Porto to Paris B
+    -
+      number: 8348
+      travel: Porto to Stansted
+    -
+      number: 8542
+      travel: Stansted to Berlin
+    -
+      number: 2672
+      travel: Stansted to Rome C
+    -
+      number: 9967
+      travel: Stansted to Sofia
+    -
+      number: 5062
+      travel: Stansted to Poznan
+    -
+      number: 6342
+      travel: Rome F to Barcelona
+    -
+      number: 9044
+      travel: Stansted to Barcelona
+    -
+      number: 9163
+      travel: Birmingham to Barcelona
+    -
+      number: 8496
+      travel: Brindisi to Milan B
+    -
+      number: 2989
+      travel: Copenhagen to Milan B
+    -
+      number: 4194
+      travel: Stansted to Milan B
+    -
+      number: 1056
+      travel: Warsaw M to Brussels C
+    -
+      number: 6056
+      travel: Venice to Brussels C
+    -
+      number: 29
+      travel: Paris B to Dublin
+    -
+      number: 47
+      travel: Brussels C to Dublin
+    -
+      number: 3979
+      travel: Madrid to Dublin
+    -
+      number: 7010
+      travel: Brussels Z to Rome F
+    -
+      number: 4892
+      travel: Catania to Rome F
+    -
+      number: 7070
+      travel: Barcelona to Rome F
+    -
+      number: 1884
+      travel: Stansted to Lisbon
+    -
+      number: 2095
+      travel: Porto to Lisbon
+    -
+      number: 5994
+      travel: Stansted to Madrid
+    -
+      number: 5318
+      travel: Santiago to Madrid
+    -
+      number: 9134
+      travel: Paris B to Porto
+    -
+      number: 8347
+      travel: Stansted to Porto
+    -
+      number: 8543
+      travel: Berlin to Stansted
+    -
+      number: 2673
+      travel: Rome C to Stansted
+    -
+      number: 9968
+      travel: Sofia to Stansted
+    -
+      number: 5063
+      travel: Poznan to Stansted
   29/09/2017-06/10/2017-13/10/2017-20/10/2017-27/10/2017:
-    - 6341 - Barcelona to Rome F
-    - 9045 - Barcelona to Stansted
-    - 3976 - Barcelona to Dublin
-    - 8495 - Milan B to Brindisi
-    - 4197 - Milan B to Stansted
-    - 5551 - Milan B to Cologne
-    - 1055 - Brussels C to Warsaw M
-    - 3239 - Brussels C to Manchester
-    - 201 - Brussels C to Copenhagen
-    - 22 - Dublin to Paris B
-    - 664 - Dublin to Birmingham
-    - 7156 - Dublin to Madrid
-    - 4891 - Rome F to Catania
-    - 7060 - Rome F to Barcelona
-    - 1885 - Lisbon to Stansted
-    - 2932 - Lisbon to Brussels
-    - 1671 - Lisbon to Porto
-    - 5993 - Madrid to Stansted
-    - 5983 - Madrid to Milan B
-    - 4584 - Porto to Barcelona
-    - 7478 - Porto to Paris B
-    - 8348 - Porto to Stansted
-    - 8542 - Stansted to Berlin
-    - 2283 - Stansted to Warsaw M
-    - 2672 - Stansted to Rome C
-    - 1396 - Stansted to Oslo
-    - 2352 - Stansted to Cologne
-    - 6342 - Rome F to Barcelona
-    - 9044 - Stansted to Barcelona
-    - 3977 - Dublin to Barcelona
-    - 8496 - Brindisi to Milan B
-    - 4198 - Stansted to Milan B
-    - 5550 - Cologne to Milan B
-    - 1056 - Warsaw M to Brussels C
-    - 3238 - Manchester to Brussels C
-    - 200 - Copenhagen to Brussels C
-    - 23 - Paris B to Dublin
-    - 665 - Birmingham to Dublin
-    - 7157 - Madrid to Dublin
-    - 4892 - Catania to Rome F
-    - 7070 - Barcelona to Rome F
-    - 1884 - Stansted to Lisbon
-    - 2931 - Brussels to Lisbon
-    - 1672 - Porto to Lisbon
-    - 5994 - Stansted to Madrid
-    - 5984 - Milan B to Madrid
-    - 4585 - Barcelona to Porto
-    - 7479 - Paris B to Porto
-    - 8347 - Stansted to Porto
-    - 8543 - Berlin to Stansted
-    - 2284 - Warsaw M to Stansted
-    - 2673 - Rome C to Stansted
-    - 1397 - Oslo to Stansted
-    - 2353 - Cologne to Stansted
+    -
+      number: 6341
+      travel: Barcelona to Rome F
+    -
+      number: 9045
+      travel: Barcelona to Stansted
+    -
+      number: 3976
+      travel: Barcelona to Dublin
+    -
+      number: 8495
+      travel: Milan B to Brindisi
+    -
+      number: 4197
+      travel: Milan B to Stansted
+    -
+      number: 5551
+      travel: Milan B to Cologne
+    -
+      number: 1055
+      travel: Brussels C to Warsaw M
+    -
+      number: 3239
+      travel: Brussels C to Manchester
+    -
+      number: 201
+      travel: Brussels C to Copenhagen
+    -
+      number: 22
+      travel: Dublin to Paris B
+    -
+      number: 664
+      travel: Dublin to Birmingham
+    -
+      number: 7156
+      travel: Dublin to Madrid
+    -
+      number: 4891
+      travel: Rome F to Catania
+    -
+      number: 7060
+      travel: Rome F to Barcelona
+    -
+      number: 1885
+      travel: Lisbon to Stansted
+    -
+      number: 2932
+      travel: Lisbon to Brussels
+    -
+      number: 1671
+      travel: Lisbon to Porto
+    -
+      number: 5993
+      travel: Madrid to Stansted
+    -
+      number: 5983
+      travel: Madrid to Milan B
+    -
+      number: 4584
+      travel: Porto to Barcelona
+    -
+      number: 7478
+      travel: Porto to Paris B
+    -
+      number: 8348
+      travel: Porto to Stansted
+    -
+      number: 8542
+      travel: Stansted to Berlin
+    -
+      number: 2283
+      travel: Stansted to Warsaw M
+    -
+      number: 2672
+      travel: Stansted to Rome C
+    -
+      number: 1396
+      travel: Stansted to Oslo
+    -
+      number: 2352
+      travel: Stansted to Cologne
+    -
+      number: 6342
+      travel: Rome F to Barcelona
+    -
+      number: 9044
+      travel: Stansted to Barcelona
+    -
+      number: 3977
+      travel: Dublin to Barcelona
+    -
+      number: 8496
+      travel: Brindisi to Milan B
+    -
+      number: 4198
+      travel: Stansted to Milan B
+    -
+      number: 5550
+      travel: Cologne to Milan B
+    -
+      number: 1056
+      travel: Warsaw M to Brussels C
+    -
+      number: 3238
+      travel: Manchester to Brussels C
+    -
+      number: 200
+      travel: Copenhagen to Brussels C
+    -
+      number: 23
+      travel: Paris B to Dublin
+    -
+      number: 665
+      travel: Birmingham to Dublin
+    -
+      number: 7157
+      travel: Madrid to Dublin
+    -
+      number: 4892
+      travel: Catania to Rome F
+    -
+      number: 7070
+      travel: Barcelona to Rome F
+    -
+      number: 1884
+      travel: Stansted to Lisbon
+    -
+      number: 2931
+      travel: Brussels to Lisbon
+    -
+      number: 1672
+      travel: Porto to Lisbon
+    -
+      number: 5994
+      travel: Stansted to Madrid
+    -
+      number: 5984
+      travel: Milan B to Madrid
+    -
+      number: 4585
+      travel: Barcelona to Porto
+    -
+      number: 7479
+      travel: Paris B to Porto
+    -
+      number: 8347
+      travel: Stansted to Porto
+    -
+      number: 8543
+      travel: Berlin to Stansted
+    -
+      number: 2284
+      travel: Warsaw M to Stansted
+    -
+      number: 2673
+      travel: Rome C to Stansted
+    -
+      number: 1397
+      travel: Oslo to Stansted
+    -
+      number: 2353
+      travel: Cologne to Stansted
   30/09/2017-07/10/2017-14/10/2017-21/10/2017-28/10/2017:
-    - 6341 - Barcelona to Rome F
-    - 9045 - Barcelona to Stansted
-    - 4545 - Barcelona to Porto
-    - 5292 - Milan B to Lamezia
-    - 4111 - Milan B to Naples
-    - 5505 - Milan B to Nuremberg
-    - 8795 - Milan B to Brindisi
-    - 201 - Brussels C to Copenhagen
-    - 6105 - Brussels C to Rome C
-    - 4526 - Brussels C to Milan B
-    - 7156 - Dublin to Madrid
-    - 552 - Dublin to Manchester
-    - 7000 - Rome F to Brussels
-    - 9795 - Rome F to Marseille
-    - 7075 - Rome F to Bari
-    - 1885 - Lisbon to Stansted
-    - 2096 - Lisbon to Porto
-    - 5993 - Madrid to Stansted
-    - 7474 - Porto to Paris B
-    - 4703 - Porto to Milan B
-    - 2672 - Stansted to Rome C
-    - 9967 - Stansted to Sofia
-    - 281 - Stansted to Toulouse
-    - 2134 - Stansted to Rzeszow
-    - 6342 - Rome F to Barcelona
-    - 9044 - Stansted to Barcelona
-    - 4546 - Porto to Barcelona
-    - 5293 - Lamezia to Milan B
-    - 4112 - Naples to Milan B
-    - 5506 - Nuremberg to Milan B
-    - 8796 - Brindisi to Milan B
-    - 200 - Copenhagen to Brussels C
-    - 6106 - Rome C to Brussels C
-    - 4527 - Milan B to Brussels C
-    - 7157 - Madrid to Dublin
-    - 553 - Manchester to Dublin
-    - 7010 - Brussels to Rome F
-    - 9796 - Marseille to Rome F
-    - 7076 - Bari to Rome F
-    - 1884 - Stansted to Lisbon
-    - 2095 - Porto to Lisbon
-    - 5994 - Stansted to Madrid
-    - 7475 - Paris B to Porto
-    - 4702 - Milan B to Porto
-    - 2673 - Rome C to Stansted
-    - 9968 - Sofia to Stansted
-    - 282 - Toulouse to Stansted
-    - 2135 - Rzeszow to Stansted
+    -
+      number: 6341
+      travel: Barcelona to Rome F
+    -
+      number: 9045
+      travel: Barcelona to Stansted
+    -
+      number: 4545
+      travel: Barcelona to Porto
+    -
+      number: 5292
+      travel: Milan B to Lamezia
+    -
+      number: 4111
+      travel: Milan B to Naples
+    -
+      number: 5505
+      travel: Milan B to Nuremberg
+    -
+      number: 8795
+      travel: Milan B to Brindisi
+    -
+      number: 201
+      travel: Brussels C to Copenhagen
+    -
+      number: 6105
+      travel: Brussels C to Rome C
+    -
+      number: 4526
+      travel: Brussels C to Milan B
+    -
+      number: 7156
+      travel: Dublin to Madrid
+    -
+      number: 552
+      travel: Dublin to Manchester
+    -
+      number: 7000
+      travel: Rome F to Brussels
+    -
+      number: 9795
+      travel: Rome F to Marseille
+    -
+      number: 7075
+      travel: Rome F to Bari
+    -
+      number: 1885
+      travel: Lisbon to Stansted
+    -
+      number: 2096
+      travel: Lisbon to Porto
+    -
+      number: 5993
+      travel: Madrid to Stansted
+    -
+      number: 7474
+      travel: Porto to Paris B
+    -
+      number: 4703
+      travel: Porto to Milan B
+    -
+      number: 2672
+      travel: Stansted to Rome C
+    -
+      number: 9967
+      travel: Stansted to Sofia
+    -
+      number: 281
+      travel: Stansted to Toulouse
+    -
+      number: 2134
+      travel: Stansted to Rzeszow
+    -
+      number: 6342
+      travel: Rome F to Barcelona
+    -
+      number: 9044
+      travel: Stansted to Barcelona
+    -
+      number: 4546
+      travel: Porto to Barcelona
+    -
+      number: 5293
+      travel: Lamezia to Milan B
+    -
+      number: 4112
+      travel: Naples to Milan B
+    -
+      number: 5506
+      travel: Nuremberg to Milan B
+    -
+      number: 8796
+      travel: Brindisi to Milan B
+    -
+      number: 200
+      travel: Copenhagen to Brussels C
+    -
+      number: 6106
+      travel: Rome C to Brussels C
+    -
+      number: 4527
+      travel: Milan B to Brussels C
+    -
+      number: 7157
+      travel: Madrid to Dublin
+    -
+      number: 553
+      travel: Manchester to Dublin
+    -
+      number: 7010
+      travel: Brussels to Rome F
+    -
+      number: 9796
+      travel: Marseille to Rome F
+    -
+      number: 7076
+      travel: Bari to Rome F
+    -
+      number: 1884
+      travel: Stansted to Lisbon
+    -
+      number: 2095
+      travel: Porto to Lisbon
+    -
+      number: 5994
+      travel: Stansted to Madrid
+    -
+      number: 7475
+      travel: Paris B to Porto
+    -
+      number: 4702
+      travel: Milan B to Porto
+    -
+      number: 2673
+      travel: Rome C to Stansted
+    -
+      number: 9968
+      travel: Sofia to Stansted
+    -
+      number: 282
+      travel: Toulouse to Stansted
+    -
+      number: 2135
+      travel: Rzeszow to Stansted
   01/10/2017-08/10/2017-15/10/2017-22/10/2017:
-    - 6341 - Barcelona to Rome F
-    - 9045 - Barcelona to Stansted
-    - 1135 - Barcelona to Berlin
-    - 8885 - Milan B to Brindisi
-    - 7951 - Milan B to Catania
-    - 3772 - Milan B to Bucharest
-    - 3745 - Brussels C to Pisa
-    - 1057 - Brussels C to Warsaw M
-    - 7156 - Dublin to Madrid
-    - 202 - Dublin to Stansted
-    - 1452 - Dublin to Brussels
-    - 7000 - Rome F to Brussels
-    - 4891 - Rome F to Catania
-    - 7060 - Rome F to Barcelona
-    - 1885 - Lisbon to Stansted
-    - 2096 - Lisbon to Porto
-    - 6066 - Lisbon to Terceira
-    - 2017 - Madrid to Lanzarote
-    - 5995 - Madrid to Stansted
-    - 5484 - Madrid to Porto
-    - 8344 - Porto to Stansted
-    - 4584 - Porto to Barcelona
-    - 2862 - Porto to Luxembourg
-    - 8542 - Stansted to Berlin
-    - 2283 - Stansted to Warsaw M
-    - 2672 - Stansted to Rome C
-    - 1394 - Stansted to Oslo
-    - 6342 - Rome F to Barcelona
-    - 9044 - Stansted to Barcelona
-    - 1134 - Berlin to Barcelona
-    - 8886 - Brindisi to Milan B
-    - 7952 - Catania to Milan B
-    - 3773 - Bucharest to Milan B
-    - 3746 - Pisa to Brussels C
-    - 1058 - Warsaw M to Brussels C
-    - 7157 - Madrid to Dublin
-    - 205 - Stansted to Dublin
-    - 1453 - Brussels to Dublin
-    - 7O10 - Brussels to Rome F
-    - 4892 - Catania to Rome F
-    - 7070 - Barcelona to Rome F
-    - 1884 - Stansted to Lisbon
-    - 2095 - Porto to Lisbon
-    - 6067 - Terceira to Lisbon
-    - 2018 - Lanzarote to Madrid
-    - 5996 - Stansted to Madrid
-    - 5485 - Porto to Madrid
-    - 8343 - Stansted to Porto
-    - 4585 - Paris B to Porto
-    - 2863 - Luxembourg to Porto
-    - 8543 - Berlin to Stansted
-    - 2284 - Warsaw M to Stansted
-    - 2673 - Rome C to Stansted
-    - 1395 - Oslo to Stansted
+    -
+      number: 6341
+      travel: Barcelona to Rome F
+    -
+      number: 9045
+      travel: Barcelona to Stansted
+    -
+      number: 1135
+      travel: Barcelona to Berlin
+    -
+      number: 8885
+      travel: Milan B to Brindisi
+    -
+      number: 7951
+      travel: Milan B to Catania
+    -
+      number: 3772
+      travel: Milan B to Bucharest
+    -
+      number: 3745
+      travel: Brussels C to Pisa
+    -
+      number: 1057
+      travel: Brussels C to Warsaw M
+    -
+      number: 7156
+      travel: Dublin to Madrid
+    -
+      number: 202
+      travel: Dublin to Stansted
+    -
+      number: 1452
+      travel: Dublin to Brussels
+    -
+      number: 7000
+      travel: Rome F to Brussels
+    -
+      number: 4891
+      travel: Rome F to Catania
+    -
+      number: 7060
+      travel: Rome F to Barcelona
+    -
+      number: 1885
+      travel: Lisbon to Stansted
+    -
+      number: 2096
+      travel: Lisbon to Porto
+    -
+      number: 6066
+      travel: Lisbon to Terceira
+    -
+      number: 2017
+      travel: Madrid to Lanzarote
+    -
+      number: 5995
+      travel: Madrid to Stansted
+    -
+      number: 5484
+      travel: Madrid to Porto
+    -
+      number: 8344
+      travel: Porto to Stansted
+    -
+      number: 4584
+      travel: Porto to Barcelona
+    -
+      number: 2862
+      travel: Porto to Luxembourg
+    -
+      number: 8542
+      travel: Stansted to Berlin
+    -
+      number: 2283
+      travel: Stansted to Warsaw M
+    -
+      number: 2672
+      travel: Stansted to Rome C
+    -
+      number: 1394
+      travel: Stansted to Oslo
+    -
+      number: 6342
+      travel: Rome F to Barcelona
+    -
+      number: 9044
+      travel: Stansted to Barcelona
+    -
+      number: 1134
+      travel: Berlin to Barcelona
+    -
+      number: 8886
+      travel: Brindisi to Milan B
+    -
+      number: 7952
+      travel: Catania to Milan B
+    -
+      number: 3773
+      travel: Bucharest to Milan B
+    -
+      number: 3746
+      travel: Pisa to Brussels C
+    -
+      number: 1058
+      travel: Warsaw M to Brussels C
+    -
+      number: 7157
+      travel: Madrid to Dublin
+    -
+      number: 205
+      travel: Stansted to Dublin
+    -
+      number: 1453
+      travel: Brussels to Dublin
+    -
+      number: 7O10
+      travel: Brussels to Rome F
+    -
+      number: 4892
+      travel: Catania to Rome F
+    -
+      number: 7070
+      travel: Barcelona to Rome F
+    -
+      number: 1884
+      travel: Stansted to Lisbon
+    -
+      number: 2095
+      travel: Porto to Lisbon
+    -
+      number: 6067
+      travel: Terceira to Lisbon
+    -
+      number: 2018
+      travel: Lanzarote to Madrid
+    -
+      number: 5996
+      travel: Stansted to Madrid
+    -
+      number: 5485
+      travel: Porto to Madrid
+    -
+      number: 8343
+      travel: Stansted to Porto
+    -
+      number: 4585
+      travel: Paris B to Porto
+    -
+      number: 2863
+      travel: Luxembourg to Porto
+    -
+      number: 8543
+      travel: Berlin to Stansted
+    -
+      number: 2284
+      travel: Warsaw M to Stansted
+    -
+      number: 2673
+      travel: Rome C to Stansted
+    -
+      number: 1395
+      travel: Oslo to Stansted
