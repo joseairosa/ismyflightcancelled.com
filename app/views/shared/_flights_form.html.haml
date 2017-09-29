@@ -5,10 +5,10 @@
   = form_tag('/') do
     .form-group.row
       .col-md-6.mx-auto
-        %input.form-control.form-control-lg{placeholder: "Flight Number", name: 'flight_number', type: "text"}
+        %input.form-control.form-control-lg{placeholder: "Flight Number (eg. FR1234)", name: 'flight_number', type: "text"}
     .form-group.row
       .col-md-6.mx-auto
-        %input.form-control.form-control-lg{'data-provide' => 'datepicker', 'data-date-format' => 'dd/mm/yyyy', name: 'flight_date', placeholder: "Flight Date", type: "text"}
+        %input.form-control.form-control-lg{'data-provide' => 'datepicker', 'data-date-format' => 'dd/mm/yyyy', name: 'flight_date', placeholder: "Flight Date (dd/mm/yyyy)", type: "text"}
     .form-group.row
       .col-md-6.mx-auto
         %button.btn.btn-primary.btn-xl.js-scroll-trigger{:type => "submit"} Check my flight
