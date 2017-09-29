@@ -3,7 +3,7 @@
   %head
     %meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0"}
     %title= content_for?(:title) ? yield(:title) : 'Is My Flight Cancelled?'
-    %meta{:name => "description", :content => "#{content_for?(:description) ? yield(:description) : 'Ismyflightcancelled Com'}"}
+    %meta{:name => "description", :content => "#{content_for?(:description) ? yield(:description) : 'This website was built with the aim to help people find if their flight was cancelled or not.'}"}
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => 'reload'
     %link{:href => "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800", :rel => "stylesheet", :type => "text/css"}
     %link{:href => "https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic", :rel => "stylesheet", :type => "text/css"}
