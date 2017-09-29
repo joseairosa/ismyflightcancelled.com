@@ -33,6 +33,7 @@ gem 'popper_js'
 gem 'font-awesome-rails'
 gem 'bootstrap-datepicker-rails'
 gem 'chronic'
+gem 'bootstrap-social-rails'
 group :development do
   gem 'better_errors'
   gem 'html2haml'
