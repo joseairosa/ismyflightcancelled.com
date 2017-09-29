@@ -5,14 +5,35 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url(asset-path('aircraft1.jpg'));
-  background-position: center;
+  // background-image: url(asset-path('aircraft1.jpg'));
+  // background-position: center;
+
+  &:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.9;
+    background-image: url(asset-path('aircraft1.jpg'));
+    background-repeat: no-repeat;
+    background-position: center;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
   @include background-cover;
   .header-content {
     position: relative;
     width: 100%;
     padding: 150px 15px 100px;
     text-align: center;
+    z-index: 999;
     .header-content-inner {
       h1 {
         font-size: 30px;
@@ -20,6 +41,7 @@ header.masthead {
         margin-top: 0;
         margin-bottom: 0;
         text-transform: uppercase;
+        text-shadow: 1px 1px 4px #666;
       }
       hr {
         margin: 30px auto;
@@ -28,7 +50,14 @@ header.masthead {
         font-size: 16px;
         font-weight: 300;
         margin-bottom: 50px;
-        color: fade-out(white, .3);
+        color: fade-out(white, 0);
+        text-shadow: 1px 1px 2px #000;
+        a {
+          background-color: #fff;
+          padding: 6px 10px;
+          border-radius: 4px;
+          text-shadow: 0px 0px 0px;
+        }
       }
     }
   }
@@ -42,6 +71,7 @@ header.masthead {
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
+      z-index: 999;
       .header-content-inner {
         max-width: 1000px;
         margin-right: auto;
@@ -50,7 +80,7 @@ header.masthead {
           font-size: 50px;
         }
         p {
-          font-size: 18px;
+          font-size: 22px;
           max-width: 80%;
           margin-right: auto;
           margin-left: auto;
