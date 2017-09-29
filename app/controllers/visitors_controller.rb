@@ -7,10 +7,15 @@ class VisitorsController < ApplicationController
   def index
     if request.post?
       if valid_submission?
+        if requested_flight.starts_with?('FR')
         @found_flights = FindFlightService.new(
           flight_number: requested_flight,
           flight_date: requested_date
         ).process
+        else
+          @found_flights = nil
+          flash.now[:error] = "We currently only support Ryanair flights affected by the massive cancellation occured in September 2017. Please make sure your flight number starts with FR."
+        end
       else
         flash.now[:error] = "Either flight number or date are invalid!"
       end
@@ -26,7 +31,7 @@ class VisitorsController < ApplicationController
   end
 
   def requested_flight
-    flight_params[:flight_number]
+    flight_params[:flight_number].gsub(' ', '').gsub('-', '')
   end
 
   def requested_date
