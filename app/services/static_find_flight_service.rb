@@ -1,4 +1,4 @@
-class FindFlightService
+class StaticFindFlightService
   def initialize(flight_number:, flight_date:)
     @flight_number = flight_number
     @flight_date = flight_date
@@ -11,7 +11,7 @@ class FindFlightService
   private
 
   def _find_flight
-    FILES_REPOSITORY.each_with_object([]) do |(_, list), res|
+    FILES_REPOSITORY.each_with_object([]) do |(airline, list), res|
       list.each do |dates, flights|
         found_date = dates.split('-').any? do |date|
           this_flight_date = Chronic.parse(date).to_date
@@ -20,9 +20,15 @@ class FindFlightService
         if found_date
           flights.each do |this_flight|
             if @flight_number.gsub(/[^\d]/, '') == this_flight['number'].to_s
+              travel_array = this_flight['travel'].split(' to ')
+              from_airport = travel_array.first
+              to_airport = travel_array.last
               res << {
                 flight_number: this_flight['number'],
-                flight_travel: this_flight['travel']
+                airline_name: airline.to_s.capitalize,
+                from_airport: from_airport,
+                to_airport: to_airport,
+                status: _status_to_symbol(status: json_response['flightStatuses'][0]['status'])
               }
             end
           end

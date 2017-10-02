@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'visitors#index'
+  root to: 'homepage#index'
 
-  post '/' => 'visitors#index'
+  post '/' => 'homepage#index'
 end

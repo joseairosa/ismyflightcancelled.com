@@ -2,25 +2,32 @@
 %header.masthead
   .header-content
     .header-content-inner
-      - if found_flights.nil?
+      - if found_flight.nil?
         = render partial: 'shared/flights_form'
         %hr
         %p Provide us with your Ryanair flight details and we'll check if your flight has been cancelled!
       - else
-        - if found_flights.empty?
-          %h1#homeHeading Great News!
-          %hr
-          %p= "We're happy to let you know, that so far and to the best of our knowledge, your flight #{requested_flight} on #{requested_date} has not been cancelled!"
-        - else
+        - if found_flight.is_cancelled?
           %h1#homeHeading Flight cancelled!
           %hr
-          %p= "It appears that your flight #{requested_flight} on the #{requested_date} from #{found_flights.first[:flight_travel]} has been cancelled!"
-          %p We recommend that you get in touch with Ryanair as quickly as possible.
-          %p
-            Click here to go directly to
-            %a{href: 'https://www.ryanair.com/gb/en/useful-info/travel-info/winter-schedule-changes'} Ryanair support page
+          %p= "It appears that your flight #{found_flight.to_s} has been cancelled!"
+          %p= "We recommend that you get in touch with #{found_flight.airline_name} as quickly as possible."
+          - if found_flight.airline_name == 'Monarch Airlines'
+            %p Monarch has confirmed they have ceased trading and now entered administration.
+            %p As a result, as of 2 October 2017, all future holidays and flights have been cancelled and are no longer operating.
+            %p
+              Click here to go directly to
+              %a{href: 'https://monarch.caa.co.uk/'} Monarch Airlines webpage
+          - if found_flight.airline_name == 'Ryanair'
+            %p
+              Click here to go directly to
+              %a{href: 'https://www.ryanair.com/gb/en/useful-info/travel-info/winter-schedule-changes'} Ryanair support page
+        - else
+          %h1#homeHeading Great News!
+          %hr
+          %p= "We're happy to let you know, that so far and to the best of our knowledge, your flight #{found_flight.to_s} has not been cancelled!"
         %a.btn.btn-primary.btn-xl.js-scroll-trigger#search-another-flight{href: root_path} Search another flight
-        %p Note: Please bear in mind that you should always double check any information directly with the airline!
+        %p= "Note: Please bear in mind that you should always double check any information directly with #{found_flight.airline_name}!"
       .container
         .row
           .col-md-6.mx-auto
