@@ -34,6 +34,7 @@ gem 'font-awesome-rails'
 gem 'bootstrap-datepicker-rails'
 gem 'chronic'
 gem 'bootstrap-social-rails'
+gem 'httparty'
 group :development do
   gem 'better_errors'
   gem 'html2haml'
