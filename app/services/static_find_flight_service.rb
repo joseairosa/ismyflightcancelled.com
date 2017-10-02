@@ -11,7 +11,9 @@ class StaticFindFlightService
   private
 
   def _find_flight
-    FILES_REPOSITORY.each_with_object([]) do |(airline, list), res|
+    matching_flights = FILES_REPOSITORY.each_with_object([]) do |(_, data_hash), res|
+      airline = data_hash.to_a[0][0]
+      list = data_hash.to_a[0][1]
       list.each do |dates, flights|
         found_date = dates.split('-').any? do |date|
           this_flight_date = Chronic.parse(date).to_date
@@ -24,17 +26,21 @@ class StaticFindFlightService
               from_airport = travel_array.first
               to_airport = travel_array.last
               res << {
-                flight_number: this_flight['number'],
+                flight_number: "FR#{this_flight['number']}",
                 airline_name: airline.to_s.capitalize,
+                date: @flight_date,
                 from_airport: from_airport,
                 to_airport: to_airport,
-                status: _status_to_symbol(status: json_response['flightStatuses'][0]['status'])
+                status: :cancelled,
+                error: nil,
+                error_message: nil
               }
             end
           end
         end
       end
     end
+    matching_flights.first
   end
 
   def _user_flight_date

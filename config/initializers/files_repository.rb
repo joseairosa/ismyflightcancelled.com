@@ -5,7 +5,7 @@ class FilesRepository
 
   def initialize
     @files = FILES_LIST.each_with_object({}) do |file_path, res|
-      res[File.basename(file_path, ".*")] = YAML.load_file(file_path)['flights']
+      res[File.basename(file_path, ".*")] = YAML.load_file(file_path)
     end
   end
 

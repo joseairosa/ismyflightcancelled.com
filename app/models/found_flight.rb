@@ -11,6 +11,10 @@ class FoundFlight
     @service_hash[:error]
   end
 
+  def error_message
+    @service_hash[:error_message]
+  end
+
   def is_cancelled?
     @service_hash[:status] == :cancelled
   end

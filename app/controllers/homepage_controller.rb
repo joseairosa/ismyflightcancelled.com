@@ -12,7 +12,8 @@ class HomepageController < ApplicationController
             flight_number: requested_flight,
             flight_date: requested_date
           ).process
-        else
+        end
+        if !requested_flight.starts_with?('FR') || flight_service.nil?
           flight_service = FlightstatsFindFlightService.new(
             flight_number: requested_flight,
             flight_date: requested_date
@@ -20,7 +21,7 @@ class HomepageController < ApplicationController
         end
         @found_flight = FoundFlight.new(flight_service)
         if @found_flight.has_error?
-          flash.now[:error] = @found_flight[:error_message]
+          flash.now[:error] = @found_flight.error_message
           @found_flight = nil
         end
       else
