@@ -97,11 +97,13 @@ module Api
 
     def _from_airport
       return {} if _last_response_json['appendix'].nil?
+      return {} if _last_response_json['appendix']['airports'].nil?
       _last_response_json['appendix']['airports'][0]
     end
 
     def _to_airport
       return {} if _last_response_json['appendix'].nil?
+      return {} if _last_response_json['appendix']['airports'].nil?
       _last_response_json['appendix']['airports'][1]
     end
 
@@ -111,13 +113,18 @@ module Api
           'errorCode' => _last_response_code,
           'errorMessage' => _last_response_message,
         }
+      elsif _from_airport.empty?
+        {
+          'errorCode' => 404,
+          'errorMessage' => "Flight #{_flight_number} not found",
+        }
       else
         _last_response_json['error']
       end
     end
 
     def _last_reponse_error_has_error?
-      _last_response_error.present? || _last_response_code != 200
+      _last_response_error.present? || _last_response_code != 200 || _from_airport.empty?
     end
 
     def _flight_number
