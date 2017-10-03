@@ -21,3 +21,4 @@
 //= require scrollreveal.min
 //= require jquery.magnific-popup.min
 //= require creative
+//= require google_analytics
