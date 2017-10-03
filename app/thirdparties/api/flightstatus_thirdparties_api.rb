@@ -65,6 +65,7 @@ module Api
     end
 
     def _last_response_json
+      return {} if _last_response_code != 200
       @last_response_json ||= JSON.parse(@last_response.body)
     end
 
@@ -77,6 +78,7 @@ module Api
     end
 
     def _flight_status
+      return {} if _last_response_json['appendix'].nil?
       _last_response_json['flightStatuses'][0]
     end
 
@@ -89,26 +91,37 @@ module Api
     end
 
     def _airline
+      return {} if _last_response_json['appendix'].nil?
       _last_response_json['appendix']['airlines'][0]
     end
 
     def _from_airport
+      return {} if _last_response_json['appendix'].nil?
       _last_response_json['appendix']['airports'][0]
     end
 
     def _to_airport
+      return {} if _last_response_json['appendix'].nil?
       _last_response_json['appendix']['airports'][1]
     end
 
     def _last_response_error
-      _last_response_json['error']
+      if _last_response_json.empty?
+        {
+          'errorCode' => _last_response_code,
+          'errorMessage' => _last_response_message,
+        }
+      else
+        _last_response_json['error']
+      end
     end
 
     def _last_reponse_error_has_error?
-      _last_response_error.present?
+      _last_response_error.present? || _last_response_code != 200
     end
 
     def _flight_number
+      return '' if _flight_request.nil?
       "#{_flight_request['airline']['fsCode']}#{_flight_request['flight']['interpreted']}"
     end
 
