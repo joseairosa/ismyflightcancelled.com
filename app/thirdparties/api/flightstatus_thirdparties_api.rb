@@ -14,7 +14,7 @@ module Api
       path << year
       path << month
       path << day
-      json_response, code, message = _get(path.join('/'))
+      _get(path.join('/'))
       if _last_reponse_error_has_error?
         {
           flight_number: _flight_number,
@@ -44,7 +44,6 @@ module Api
 
     def _get(path)
       @last_response = HTTParty.get("#{URL}#{path}?appId=#{_app_id}&appKey=#{_app_key}&utc=false")
-      [_last_response_json, _last_response_code, _last_response_message]
     end
 
     def _get_url_flight_type(type:)
@@ -108,7 +107,9 @@ module Api
     end
 
     def _last_response_error
-      if _last_response_json.empty?
+      if _last_response_json['error'].present?
+        _last_response_json['error']
+      elsif _last_response_json.empty?
         {
           'errorCode' => _last_response_code,
           'errorMessage' => _last_response_message,
@@ -118,8 +119,6 @@ module Api
           'errorCode' => 404,
           'errorMessage' => "Flight #{_flight_number} not found",
         }
-      else
-        _last_response_json['error']
       end
     end
 
